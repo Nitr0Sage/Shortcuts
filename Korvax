@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Korvax Optional Quests</title>
+<style>
+
+body {
+  font-family:0;
+  background:#e4e4e4;
+  color:#000;
+  text-align:center;
+  margin:30px;
+  }
+  
+h1 {
+  font-size:27px;
+  margin:0;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Quest Dialogue</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for quests.." title="Start typing in quest Dialogue">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Quest</th>
+    <th style="width:40%;">Outcomes</th>
+  </tr>
+  <tr>
+    <td>I startle the electronic lifeform from its work. It greets me politely, but when it sees my boltcaster it starts to vibrate with fear. The entity’s voice quavers, and its mask slowly turns to a single dilated red light.
+It clearly wants to get back to its research work, but is too terrified to take its gaze away from me. The more I try to calm it, the more the poor thing convulses with fear.</td>
+    <td>
+    <p>Leave the lifeform alone – This will net you a blueprint and some Korvax reputation.</p>
+    <p>Insist that I come in peace – The alien will start ignoring you, and your Korvax reputation will drop.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform is agitated, and perhaps in pain. Its body buzzes, and small arcs of electricity jump between its mask and shoulders. It jolts and shakes. It needs help.
+It reaches out its hand, as if it wants to shake mine. I instinctively raise my arm in response, but common sense advises caution…</td>
+    <td>Shake hands (1 HEALTH) – You’ll get some Korvax reputation and a blueprint if you choose this.</td>
+  </tr>
+  <tr>
+    <td>The lifeform shows me complicated creature research data to see if I can comprehend it. I must look blank, because the lifeform instead projects three holographic images into my visor.
+It’s clearly seeking my opinion on the intellect level of my own species. I am shown a vacant-looking slug, a more advanced beaked trader and a member of its own vastly intelligent electronic race.</td>
+    <td>Point to the beaked trader – Your Korvax standing will increase, and you’ll get a schematic.</td>
+  </tr>
+  <tr>
+    <td>I’ve interrupted an electronic lifeform in the middle of its work. Enquiring mask lights flash up towards me, and scan me from head to foot. Simultaneously, on its datapad, its silicon fingers flick through images of this planet’s plants and creatures – before adding my own image!
+Its facial lighting is starting to dim. Its interest in me is perhaps fading. I need a way to impress…</td>
+    <td>Share creature scan data – This option will reward you with a crafting schematic and some Korvax reputation.</td>
+  </tr>
+  <tr>
+    <td>A sharp metal needle emerges from the palm of the lifeform’s hand. It moves so fast that it’s already inches from my forehead before I can even blink.
+A strange toxic-looking goop dribbles down from its point and onto my visor. It hangs in the air above me, while the entity waits to for the order to plunge it deep into my brain.</td>
+    <td>
+    <p>Refuse brain excavation – Korvax reputation decreases.</p>
+    <p>Allow brain excavation – You’ll take some damage, but you’ll get reputation and a blueprint.</p>
+    <p>Take needle – Korvax reputation decreases, but you get a silicate element.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform is processing a signal that emanates from a distant location deep in space. Endless processing units are combining to crack the code of a strange mathematical language.
+Rare elements are being pulled from the resource vaults at its feet, but some are running low. I feel bright lights constricting, and directing their attention upon me.</td>
+    <td>
+    <p>Take elements from vault – You’ll get about 100 Heridium, but you’ll lose Korvax reputation.</p>
+    <p>Place rare oxides in vault (50 Titanium) – You’ll receive some Korvax reputation and a blueprint.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform narrows its mask lights in frustration and furiously taps at its workstation. It looks at me with agitation, presumably doubting that a low intelligence being can help it access the terminal.
+A Bypass Chip would certainly help here, but whether the lifeform would appreciate the illegal device is unknown.</td>
+    <td>
+    <p>Try terminal myself – You’ll just decrease your standing with the Korvax if you try this.</p>
+    <p>Give Bypass Chip (1 Bypass Chip) – This will net you some Korvax reputation and a blueprint.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The lights in the electronic lifeform’s mask constrict, and it beams a moving image onto the inside of my visor. Complex equations detailing fascinating technologies spin past in a blur. The speed of the entity’s cognition and understanding is clearly far beyond my own.
+Images of chemical formulae, directional energy diagrams and micro-density devices dance inches from my eyes – too fast to comprehend. I go to ask it to stop, but realize I could instead ask it to pause… but when?</td>
+    <td>
+    <p>The micro-density devices – This will net you an exosuit upgrade.</p>
+    <p>The directed energy diagrams – You’ll end up with a blueprint and increased reputation.</p>
+    <p>The chemical formulae – Choosing this option will grant you a schematic.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The lights in the electronic lifeform’s mask are dim and its voice quavers. It looks to me with mild interest but it seems, in truth, as if its mind is already elsewhere.
+Upon seeing me approach it slowly reaches to open the trade vault at its feet for me, but it is too late. The entity’s lights fade for a final time, and all that’s left is a satisfied electrical hiss…</td>
+    <td>
+    <p>Wait – A crafting schematic and more reputation with the race.</p>
+    <p>Re-energize lifeform (50 Thamium9) – This choice will decrease your Korvax reputation.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform is pleased to see me. Its mask lights bum an intense green while it projects two holograms into my visor.
+In one, the fragments of a complex equation are made whole and solved. In another, a number is boosted, added and multiplied. It waits for my decision.</td>
+    <td>
+    <p>The multiplied number – This option will reward you with around 70 Carbon, some reputation and a crafting schematic.</p>
+    <p>The solved equation – This will net you a health refill, an exosuit schematic, and reputation.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform indicates that it needs help with something on its screen. It jerks and vibrates with nerves, before pulling my finger towards the screen. When my hand is in place, it suddenly turns its mask lights off – refusing to witness my vital decision.
+There are three clear images that I can choose from on behalf of the entity: dangerous-looking predators, a geological mining survey and an orbiting asteroid cluster.</td>
+    <td>
+    <p>The asteroid cluster – You’ll be rewarded with a blueprint and Korvax reputation.</p>
+    <p>The mining survey – You’ll get a new multi-tool, Reputation increases.</p>
+    <p>The predators – You’ll receive a new multitool and your standing with the Korvax will improve.</p>
+    </td>
+  </tr>
+  <tr>
+    <td> The electronic lifeform is waiting for me, with a full range of companion unit blueprints clearly visible on the screen behind it. I feel as though it needs me to make a decision.
+First, its facial lights cover its metal shell in a warm and protective green. Second, they redirect onto my multitool in a deep and violent red…</td>
+    <td>
+    <p>The violent ‘red’ option – This will result in a rise in reputation and a new blueprint.</p>
+    <p>The peaceful ‘green’ option – This will result in a rise in reputation and a new blueprint.</p>
+    </td>
+  </tr>
+  <tr>
+    <td> The electronic lifeform is excited. It chitters animatedly and thrusts its holographic datapad towards my visor. It’s looking for a confirmation.
+A symbol appears: a mysterious diamond shape. Its red central orb is like an eternally unblinking eye.</td>
+    <td>Show knowledge of the symbol – This option will give you a new crafting recipe and some reputation.</td>
+  </tr>
+  <tr>
+    <td>The mask lights in the electronic lifeform brighten, then fade and extinguish. Then they do so again, and again. Each time the entity reboots it awakes with shock and alarm, and the size and placement of the light is different. Every time it looks up at me, it feels like a different creature pleading for help.
+After each and every reboot, the entities behind the mask desperately point towards the elements I carry in my exosuit inventory.</td>
+    <td>Give oxide element (10 Iron) – If you choose this, you’ll get a blueprint and increased reputation with the Korvax.</td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform grabs my arm. I struggle in its vice-like grip, while it jabs deeper and deeper into my flesh. Suddenly, deep inside my wrist, a needle flicks into my flesh to take a sample. The lifeform chitters happily as I struggle to free myself.
+Its investigation complete, a 3D cross-section of my body, exosuit and multi-tool appear before us. The areas in which I have been injured, or my equipment damaged, are clearly marked with various costs assigned.</td>
+    <td>
+    <p>Indicate the multi-tool (10 UNITS) – This option will provide you with a multitool upgrade and more reputation.</p>
+    <p>Indicate the exosuit (10 UNITS) – Exosuit Blueprint, Shields repaired and recharged.</p>
+    <p>Indicate the body (10 UNITS) – Shields and Health at maximum.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform is studying a holographic cut-away image of this planet’s geological strata, minerals and resources. It pores over common elements, converts them into high value products and analyzes the results.
+It notices my Mining Beam and chitters with excitement. I can’t help but notice that the trade vaults around it are practically overflowing…</td>
+    <td>
+    <p>Give Oxide sample (10 Iron) – You’ll receive a Carite Sheet, some reputation with the Korvax and a random blueprint.</p>
+    <p>Give Silicate sample (10 Heridium) – You’ll get Korvax rep, a blueprint and a commodity item.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The entity tilts its head to one side, and passes a hollow metallic mask to me. My best guess is that it’s some sort of data extraction device for electronic lifeforms, or perhaps even data insertion. My head can just about fit inside.
+The lifeform looks on with interest, points to its head and concetrates its lights on me. Arcs of electricity crackle over the surface of the mask. If I risk this, it could hurt…</td>
+    <td>
+    <p>Use with a clear mind – You’ll take damage.</p>
+    <p>Use while thinking about my journey – This choice will deal some damage to you, but you’ll get a blueprint.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform’s bright greeting suddenly slows. It taps its way into its personal data while its facial lights dilate and internal systems crash. Columns of streaming data show its power levels spiraling downwards.
+The lifeform looks to me for help, and then points to my gathered resources with a single, slow and desperate movement.</td>
+    <td>
+    <p>Walk away – | The entity’s mask lights go out. A fresh electronic lifeform is downloaded into its metal shell. It ignores me.</p>
+    <p>Give uncommon isotope (50 Thamium9) – This will awake the alien.</p>
+    <p>Give common isotope (100 Carbon) – | The entity slowly inserts the element into a slot in its hip. It partially reawakens, and thanks me with a gift.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform flits between three separate replication experiments – all of which appear to be going wrong. Smoke rises from resource vaults, and the manic entity’s fingers are a blur on its control pad. it looks at me with wide mask lights and increasing alarm.
+Its casing lamps suddenly settle on my exosuit inventory – and it outstretches a metal arm.</td>
+    <td>
+    <p>Give rare oxide (50 Titanium) – If you choose this, you’ll get a blueprint.</p>
+    <p>Give rare isotope (50 plutonium) – This will also reward you with a blueprint.</p>
+    <p>Give rare silicate (50 Chrysonite) – This option will give you a schematic and increased standing with the Korvax.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>As I approach the electronic lifeform it instinctively starts to analyze me from head to foot. It chitters animatedly, its head tilted to one side. The more it studies, the more the facility’s resource vault consumes what my scanner suggests are silicate elements.
+I mime that I know little of its kind of how it communicates, and the lights in the mask flash…</td>
+    <td>
+    <p>Give rare silicate (50 chrysonite) – You’ll learn a new word and get a blueprint.</p>
+    <p>Give uncommon silicate (50 platinum) – You’ll learn two new words.</p>
+    <p>Give common silicate (100 heridium) – You’ll learn a new word.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>(New Encounter)
+The life form that runs this facility has gone rogue. It chatters and buzzes with unnatural fervor, and its activity draining silicate from all systems. Memory chips in an exposed board beneath it glow red hot, and trade vaults are locked up tight.
+As I approach the entity’s lights focus sharply upon me. It outstretches a silicon hand, and speaks with calm menace.</td>
+    <td>
+    <p>Feed system with silicates – You’ll receive new Multi-tool, Korvax reputation decreases.</p>
+    <p>Remove memory chips – You’ll receive an item (Warp reactor sigma).</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The electronic lifeform is trapped in some kind of a temporal loop. It goes through these motions again and again. It shudders, it looks to me, abruptly screams half a sentence in panic – and then the process begins again. It is somehow unstuck in time.
+At its feet resource vaults are burning through products – feeding an experimental procedure of some kind. So what is it?</td>
+    <td>
+    <p>Deactivate Electron vapour – You’ll receive a Blueprint, Korvax reputation increases.</p>
+    <p>Deactivate charge reservoir – Reputation decreases.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>Two electronic lifeforms are registered on this terminal.
+The primary entity’s work is full of complicated chemical symbols, the secondary entity focuses on diagrams of electronic circuitry.</td>
+    <td>
+    <p>Login as Secondary Entity – You’ll receive a Multi-tool Blueprint.</p>
+    <p>Login as Primary Entity – You’ll receive crafting technology component.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>I rapidly flick through alien warnings to discover what’s brought the facility offline. All too late, I realize I’m doing the exact same thing again. And again.
+I’ve done this before. Many times.</td>
+    <td>Engage temporal capacitor – The correct choice.</td>
+  </tr>
+  <tr>
+    <td>The electronic life form buzzes a pleasant greeting, before four long metal needles suddenly spring from it’s fingers and straight through my shoulders. The entity lifts me clear from the floor, and angles me forwards until I’m staring directly into it’s enquiringly mask lights.
+The experience so far is curiously painless, but systems around the life form are powering up. The end of this unsettling procedure is in sight…</td>
+    <td>
+    <p>Demand to be let down (Korvax Research focus or above)</p>
+    <p>Wait – You’ll get equipment recharged and Photon Cannon Companion Unit.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The young electronic life form flicks hurriedly through endless reams of technology data. It gorges on information, which it then attempts to reform as a hologram in the air that stands between us. Even from my biological perspective, it’s clear that there’s a lot of information missing in the lifeform’s replication.
+In the background, on a terminal, a timer ticks down. A new trial or duty for the lifeform is about to begin. The lifeform starts to despair as valuable seconds tick away…</td>
+    <td>
+    <p>Indicate an unwillingness to help – Increases Korvax reputation.</p>
+    <p>Give bypass chip – Reduces Korvax reputation, gives either nanites or a blueprint.</p>
+    <p>Share blueprint information – Reduces Korvax reputation, gives units.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>A small creature is scrambling through the wiring below me, woken by the security alert. I’ts choice of nesting location was unwise…
+I can’t regain control until it has been removed from the system.</td>
+    <td>
+    <p>Leave creature alone – Blueprint</p>
+    <p>Flush production network – Nothing happens | The creature makes its escape, but its nest remains. The facility remains offline.</p>
+    <p>Initiate power surge – Increases Korvax reputation, gives Blueprint.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The Korvax makes a series of swift entries on their datapad, before turning the device towards me proudly. There are a series of numbers on the screen, with a highlighted entry at the top of the list.</td>
+    <td>
+    <p>Nod Appreciatively – Nothing happens | The Korvax seems pleased. This data clearly represents some great accomplishment.</p>
+    <p>Take datapad – Nothing happens | I fumble with the datapad, but try as I might I cannot generate number as high as those the Korvax presented.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>As I approach the terminal…</td>
+    <td>Upload memories – You’ll receive the Convergence Cube with no penalties.</td>
+  </tr>
+  <tr>
+    <td>As i approach the Korvax, i become aware of a small device in their hands. They are discreetly but unmistakably pointing it towards me, moving its flashing lights and sensors up and down my suit.</td>
+    <td>
+    <p>Protest – Nothing happens | The Korvax ignores my protest. They quicken their attempt to scan me, but I leave before it completes.</p>
+    <p>Submit to the scan – Nothing happens | The Korvax completes their work. They glance at the data. It appears to please them.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The trader’s fingers slow on its pad, and the noise of crunching gears can be heard from inside it. Its lower beak drops open, and a green bulb on the end of a rare silicate antenna emerges.
+The green light focuses on my visor, where a holographic image of a charging device appears. The green bulb flashes while it speaks in the language of the traders. It seems to assume I am a friend.</td>
+    <td>
+    <p>Report strange behavior – Suit upgrade</p>
+    <p>Give isotope (200) plutonium – Ship upgrade</p>
+    <p>Detach silicate antenna – Korvax standing decreased, receives a bit of Heridium.</p>
+    </td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
