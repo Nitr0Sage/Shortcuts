@@ -68,8 +68,42 @@ h1 {
     <th style="width:40%;">Outcomes</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>A unknown program has hijacked the terminal. It looks... more alien then expected.
+The code is enmeshed with vital research drives. I can quarantine it before damage is done.</td>
+    <td>
+    <p>Allow unknown process will gift you a rare element, loot, or a tech. - Decrease in Faction Standing</p>
+    <p>Quarantine unknown process will (Unkown, tell me if you do!) likely suspected to give you the product blueprint, or just save whats left. - Increase in Faction Standing</p>
+    </td>
+  </tr>
+  <tr>
+    <td>A laser scan refracts through my visor, then another traces the air around my breathing exhaust. My Gas concentration levels dont match the warrior standard</td>
+    <tdUse exosuit to increase gas concentration - Increase in Faction Standing and Product Blueprint></td>
+  </tr>
+  <tr>
+    <td>Two holographic security circuit images are on-screen. An open metal door, and the facility's Sentinal detection system. I can cut one off to reduce teh alert. I need to act quickly.</td>
+    <td>Cut Doorway alert - Increase in Faction Standing and Product Blueprint or tech</td>
+  </tr>
+  <tr>
+    <td>The floor feels unsteady, and somthing clicks beneath my feet. The screen locks.
+Systems are aware I'm not the lifeform that normaly operates here...</td>
+    <td>Reduce weight - Increase in Faction Standing and Product Blueprint</td>
+  </tr>
+  <tr>
+    <td>My presence has triggered a security alert. I hear elements being drawn from the two open vaults below me. On-screen: A clear countdown. An intense exothermic elemental reaction is being charged. It's a trap.</td>
+    <td>Remove Isotope element - Increase in Faction Standing and Product Blueprint or tech</td>
+  </tr>
+  <tr>
+    <td>A warrior's heart is on-screen. It is connected to wires and artificial valves. It pumps a biological liquid through harvested organs deep within the facility. Its beat is irregular. it has been compromised by the security alert.</td>
+    <td>Increase electrical Flow - Rewards with product</td>
+  </tr>
+  <tr>
+    <td>Security procedures are incinerating the content of all the vaults in the facility. Power surges are igniting them one-by-one. I can isolate one vault from the destruction but I can't see inside...
+</td>
+    <td>
+    <p>Isolate storage vault - Rewards with multitool</p>
+    <p>Isolate power vault - Rewards with fuel</p>
+    <p>Isolate trading vault - Most likely rewards with ores or a blueprint or something, Either that or its empty.</p>
+    </td>
   </tr>
 </table>
 
