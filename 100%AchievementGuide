@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>100% Achievement Guide</title>
+<style>
+
+body {
+  font-family:0;
+  background:#e4e4e4;
+  color:#000;
+  text-align:center;
+  margin:30px;
+  }
+  
+h1 {
+  font-size:27px;
+  margin:0;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Achievements</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for achievements.." title="Start typing in achievement">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Achievement</th>
+    <th style="width:40%;">How to get</th>
+  </tr>
+  <tr>
+    <td>Contact</td>
+    <td>Meet 2 Aliens</td>
+  </tr>
+  <tr>
+    <td>Babel-17</td>
+    <td>Learn 10 words</td>
+  </tr>
+  <tr>
+    <td>Foundation</td>
+    <td>Have 250,000 Units (money) at the same time. This is NOT cumulative. You must have 250k in your inventory at the same time.</td>
+  </tr>
+  <tr>
+    <td>Use of Weapons</td>
+    <td>Destroy 1 Starship</td>
+  </tr>
+  <tr>
+    <td>The Stars, Like Dust</td>
+    <td>Warp 3 Times</td>
+  </tr>
+  <tr>
+    <td>The Space Merchants</td>
+    <td>Have 1,000,000 Units (money) at the same time. This is NOT cumulative. You must have one million in your inventory at the same time.</td>
+  </tr>
+  <tr>
+    <td>A Scanner Darkly</td>
+    <td>Discover all creatures on one planet.</td>
+  </tr>
+  <tr>
+    <td>The Languages of Pao</td>
+    <td>Learn 50 Words.</td>
+  </tr>
+  <tr>
+    <td>The Diamond Age</td>
+    <td>Have 2,000,000 Units (money) at the same time. This is NOT cumulative. You must have two million in your inventory at the same time.</td>
+  </tr>
+  <tr>
+    <td>Symphony For A Lost Traveler</td>
+    <td>Walk 50,000 steps</td>
+  </tr>
+  <tr>
+    <td>Who Goes There?</td>
+    <td>Meet 20 Aliens.</td>
+  </tr>
+  <tr>
+    <td>What Mad Universe</td>
+    <td>Meet 40 Aliens.</td>
+  </tr>
+  <tr>
+    <td>The Forever War</td>
+    <td>Destroy 80 Starship</td>
+  </tr>
+  <tr>
+    <td>The Sentinel</td>
+    <td>Survive 32.0 Sols under EXTREME conditions ((burning hot, acid rain, freezing cold, life threatening storms etc.). 1 Sol= 1 day on a planet. Standing inside a building doesn't count, you have to be outside for it to count as “Extreme”.</td>
+  </tr>
+  <tr>
+    <td>Have Spacesuit - Will Travel</td>
+    <td>Walk 100,000 steps</td>
+  </tr>
+  <tr>
+    <td>Citizen of the Galaxy</td>
+    <td>Learn 150 Words.</td>
+  </tr>
+  <tr>
+    <td>The Star Beast</td>
+    <td>Discover all creatures on multiple planets.</td>
+  </tr>
+  <tr>
+    <td>Stranger in a Strange Land</td>
+    <td>Survive 20.0 Sols without dying. (1 Sol= 1 Day on a planet)</td>
+  </tr>
+  <tr>
+    <td>The Longest Voyage</td>
+    <td>Warp 30 times</td>
+  </tr>
+  <tr>
+    <td>Galapagos</td>
+    <td>You must discover ALL the creatures on 10 planets. This is best done on small moons because they have less ground to cover and generally fewer creature type on them.</td>
+  </tr>
+  <tr>
+    <td>A Space Odyssey</td>
+    <td>Warp 60 times.</td>
+  </tr>
+  <tr>
+    <td>Pattern for Conquest</td>
+    <td>Destroy 50 Starship</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
