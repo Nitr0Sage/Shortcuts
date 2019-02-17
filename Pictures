@@ -28,16 +28,24 @@ img {
   height: auto;
 }
 
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+.subSectionTitle {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    color: #66C0F4;
+    font-size: 18px;
 }
 
-div.container {
-  text-align: center;
-  padding: 10px 20px;
+.subSectionDesc {
+    line-height: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 </style>
@@ -46,28 +54,63 @@ div.container {
 
 <h2>High Quality Pictures</h2>
 
-<div class="polaroid">
-  <img src="https://i.imgur.com/3L1NeYF.png" style="width:100%">
-  <div class="container">
-  <p>Agricultural products branch.</p>
-  <p>Crop formulas are obtained through Farmer NPC quests, crafted items formulas are obtained through Science NPC quests.</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="https://i.imgur.com/wGC6ohD.png" style="width:100%">
-  <div class="container">
-  <p>Alloys branch.</p>
-  <p>Recipes can be randomly acquired in Manufacturing Plants and Operations Centers.</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="https://i.imgur.com/If51Mnj.png" style="width:100%">
-  <div class="container">
-  <p>Gas products branch.</p>
-  <p>Raw gases obtained by building atmosphere harvesters on adequate planets (requires materials from the Agricultural branch), buying them from traders (not trade terminals) or as secondary resources. Enhanced Gas recipes can be obtained in Manufacturing Plants.  Manufactured Gas Product recipes can be obtained in Operations Centers. Underligned items can be acquired as mission rewards.</p>
-  </div>
-</div>
+<div class="subSectionTitle">Space</div>
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129519598/C2161282FE98F3D93502635AAF8A004313710539/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761678114/57564D3B74870A6DBCD3995DCD61B09CC5C35C13/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761681319/FC3E7BB0101D91D0B8CFC1C44E698C95196D69D5/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761680017/BF7F0D56C03C1566E37270D027C70AE2FD14A65B/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761681820/15640ED1A98F96B57F325DDA70296F634A5EAF52/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865130154682/76BBFFA6DB7820B3587ED5C5BC9FED8BEB32DC4C/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129526133/2E2E8AC6FAFC6EEE8D3AE58B28F9BAC7E0478F33/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129519105/AF44B4324DF8951591E5D2E057AC2BAE23B03A03/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865130146643/3369323E8793F91A96A87DC92D0A572BEF9D78ED/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865130146969/38F4015790EDCD93A900A9F631BDFF9F6885E766/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865130147340/50F58CF8680911BAB4CD76A5A653DE516CD0D899/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762449243/F98159C470C6E565F05E5689B439A070DAA9F6EC/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761677051/A78194C60E599269BCE530FD7F39F8E63749EF1F/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865130156399/E86B8711282367F82C5157109688B2936DA24886/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762449906/802A8EB5A63635201B12D85FE95B64F1036D1764/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761677419/1D8A0A632D19E2560E9274DEFF9870FCB99EC0DE/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380766086322/B5E88462AB3399C36666B4D8EB64B607D651EF25/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129527344/99AB18B3A68DEF79F9FE9C1BA20D19A60573C1F2/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761678433/7A38B88F6514E5ABE87769C087B7FA8DE13C96BA/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762448388/778B66A62B0C930D50D1AFB66D347BE50A7E4721/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380775163992/79386270BFF6525C522B038131467828266D90C1/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129527024/093AE79730DDDB1AD1B92FA7008A2D0AC3924075/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380761679117/3A6032B21FC0045A34338758FF43DD3A0D577B42/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762450928/B92A40DE667F5E4F0EF45FF26B1D45C01340765F/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129523597/C9FF8F188887D36CC3AB0A8ACB1AE35E315C666D/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129526542/449FC7EFE0181DCA9640E83EC197403318F95F3C/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762452035/854F92D6FB440944C903886B1DB8C40A89A2A780/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/438360973011298342/85BBBEFFE728ACBACA625D60013C894042C3AE68/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762510042/99E435345D86B71C02568552AF4AC9EA866C8689/" class="responsive">
+<br>
+<br>
+<br>
+<br>
+<div class="subSectionTitle">Ocean</div>
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380775586478/1EE515EACA3D0B212DF9DC8853DE045F1C22C16E/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380775588297/17FC0ACCA1F98D001308B28839B6B799ABCDC076/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380775588694/1E7692C90F07CE7A23188E0BA8678F1731624017/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380775587823/4002F566469AB1ACA094FDBE2474555F6098A409/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865125177954/C7018140F4E112E29DE3434FB3BF2E584DCC8EF4/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/449618865129539874/56A35A028FA45C97202805545D1DEF30B32E4AA6/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380775592726/60817D425331A8821D35FAB6BBF130E02654E551/" class="responsive">
+<br>
+<br>
+<br>
+<br>
+<div class="subSectionTitle">Other</div>
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762477080/7A08CF1A63842B22EF5AAA7E539517E160477DCB/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762477390/2D1DC8451D4235CD426EE8F6CADE267196BFBC49/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762477700/DE047F11DADFCDFF04E3EEF6B81E03A39F804D56/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762478035/A057F9C287D259ECD47421D4B4BFB1157C9A2167/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762478414/6BC00A62DC6A260619C4E35C6F31B2D05BA1C1B4/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762478729/818055051BAEA200E33B216D9959EC6256275F6A/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762479041/FD4154FE54AACE6345ADB161AD1E84AC499A4B08/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380766190083/226A7AB9E4574D5ECDC814BADCCDF3393B724559/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762565538/1A2C50473695D4075C87718D620B3546409B81F8/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380765734380/486B38B2E9517C91CA0F702C134E4475236B563A/" class="responsive">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/448492380762563502/D09CBED953E852463400F3BC57C57BCDB63E7669/" class="responsive">
 
 </body>
