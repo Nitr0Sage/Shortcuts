@@ -1,17 +1,18 @@
 <body>
 
-<h2>My Customers</h2>
+<h2>Quest Dialogue</h2>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for quests.." title="Start typing in quest Dialogue">
 
 <table id="myTable">
   <tr class="header">
-    <th style="width:60%;">Name</th>
-    <th style="width:40%;">Country</th>
+    <th style="width:60%;">Quest</th>
+    <th style="width:40%;">Outcomes</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
+    <td>I have caught the trader red-handed. Products and elements are pouring out of the facility’s storage vaults, and into its own inventory. Above the gentle buzz of embezzlement that now surrounds us, I can hear the lifeform’s terrified gulps.
+It looks me straight in the eyes, and makes a proposition.</td>
+    <td>Report crime (Gek Valued cusmoter or above) – You’ll get a blueprint and improve your Gek reputation.</td>
   </tr>
   <tr>
     <td>Berglunds snabbkop</td>
