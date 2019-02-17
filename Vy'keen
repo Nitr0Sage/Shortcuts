@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Vy'keen Optional Quests</title>
+<style>
+
+body {
+  font-family:0;
+  background:#e4e4e4;
+  color:#000;
+  text-align:center;
+  margin:30px;
+  }
+  
+h1 {
+  font-size:27px;
+  margin:0;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Quest Dialogue</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for quests.." title="Start typing in quest Dialogue">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Quest</th>
+    <th style="width:40%;">Outcomes</th>
+  </tr>
+  <tr>
+    <td>The warrior is silent for a second, before looking at me conspiratorially. It looks behind to check for its colleagues, before powering down security systems.
+The warrior pulls open the trade vault at its feet, which seems to be piled high with multi-tool upgrades. It indicates the contents of my inventory as a trade…</td>
+    <td>
+    <p>Threaten to report (Vy’keen Accomplice or above) – This one will increase your Vy’keen reputation.</p>
+    <p>Give Isotope (100 Carbon) – You’ll get a blueprint and decreased Vy’keen reputation</p>
+    </td>
+  </tr>
+  <tr>
+    <td>A red, jagged and recent bite mark is wrapped around the entirety of the warrior’s neck. Claw marks have been dragged through its chest, and its suit’s restoration and healing systems are blinking offline.
+The lifeform barks contentedly at me, satisfied with its narrow victory. It’s clear, however, that its injuries are severe. It has trouble breathing.</td>
+    <td>
+    <p>Share Oxygen – A little money and increased Vy’keen reputation</p>
+    <p>Recharge warrior’s suit (100 Carbon) – This will reward you with a new multi-tool and increased standing with the Vy’keen.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The warrior’s facial markings draw into a smirk as it looks me up and down. I feel like I’m being sized up as a potential combatant. The creature points to an intriguing blueprint on its screen, then points to its own face. I’m being goaded into punching it.</td>
+    <td>Strike the warrior – You’ll get a blueprint and some Vy’keen reputation</td>
+  </tr>
+  <tr>
+    <td>The panicked lifeform is studying a diagram of two warriors in combat, while a chosen form of multi-tool weaponry sits below in a storage vault.
+An angry recorded message is playing. It’s a sequence of furious barks and screams that clearly have a moral high ground. The lifeform sees the battle-scars on my exosuit, and instantly yelps a question.</td>
+    <td>Report cowardice (Vy’keen Ally or above) – A blueprint and increased Vy’keen standing</td>
+  </tr>
+  <tr>
+    <td>The warrior’s nostrils flare in hope and expectation. A holographic image showing military plans appears around us.
+On one side of the battlefield stands the creature’s own warrior race, and on the other the robotic Sentinels. The warrior demands that I point to one side or the other.</td>
+    <td>Point to the warriors – Increased Vy’keen standing and a crafting schematic</td>
+  </tr>
+  <tr>
+    <td>The warrior is young and looks terrified. Military orders for an upcoming operation fill it’s terminal screen. When it sees me it’s eyes widen, and it drops to the floor on its knees – proffers its multi-tool up towards me.
+Its yelps sound pleading. The fear in its movements are more than apparent. It’s so on edge that it doesn’t seem aware of the security cameras that surround us, watching its every move.</td>
+    <td>
+    <p>Refuse multi-tool – You’ll learn a new word and get Vy’keen rep.</p>
+    <p>Take multi-tool – You’ll get a new multi-tool, but your Vy’keen reputation will decrease.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The warrior seems furiuous with itself. It slams its multi-tool onto a nearby surface and pulls the trigger again and again, but nothing happens.
+All weapons systems look functional, but their end result is nothing more than a hollow and empty click. The lifeform looks at you expectantly.</td>
+    <td>Give uncommon isotope (50 Thamium9) – This will increase your reputation among Vy’keen, and give you a blueprint.</td>
+  </tr>
+  <tr>
+    <td>The lifeform clicks its heels together in an authoritarian fashion, before plunging a syringe dripping with corrosive green liquid into my arm. Holographic images of two alien races appear in my visor – a small reptilian figure, and a taller lifeform in a metal casing.
+The warrior snarls at me, and its fingers hover over the injector – which can surely cause damage to life, limb or equipment. It begins its interrogation…</td>
+    <td>Pull rank (Vy’keen Accomplice or above) – You’ll get more Vy’keen reputation, along with an item.</td>
+  </tr>
+  <tr>
+    <td>The warrior looks up from a screen of flashing alerts. It bares its teeth at me, and quivers with barely contained fury.
+It’s clear that my presence is barely tolerated here. Its hand reaches to its weapon.</td>
+    <td>Leave the warrior alone – You’ll get Vy’keen reputation, and some units.</td>
+  </tr>
+  <tr>
+    <td>The warrior is browsing a map of the surrounding landscape. Certain areas contain markings that represent Sentinels, which the lifeform is highlighting with an excited snarl.
+It strokers its boltcaster absentmindedly, before checking the ammo charge stored in the clip. On this, its eyes jolt up towards me. It barks a question, but it sounds more like a command.</td>
+    <td>Give isotope (50 Thamium9) – You’ll get a blueprint and increased Vy’keen standing.</td>
+  </tr>
+  <tr>
+    <td>The warrior barks abruptly and flourishes a knife. IT stares directly into my eyes as it draws the blade over the palm of its hand. Black bubbles of blood emerge through the slit in its glove.
+It hands me the knife, clearly wanting me to reciprocate. It barks a little challenge, and pats the trade vault it’s sitting next to. This will probably hurt…</td>
+    <td>Cut open hand (1 health) – This will grant you a ship upgrade blueprint and an increase in reputation.</td>
+  </tr>
+  <tr>
+    <td>The warrior nods at me, before taking a small metal idol from the vault at its feet. As it clutches it, its eyes glaze over in a strange white sheen. I hear it mutter strange incantations that get louder, then louder again.
+Without waiting to ask permission, it thrusts its hands into my inventory. They burn with a strange intensity – seeming to reach for the elements it presumes are within. The experience is terrifying.</td>
+    <td>Give silicate (50 Chrysonite) – You’ll get a companion unit blueprint and more reputation.</td>
+  </tr>
+  <tr>
+    <td>The warrior is old, and of a high rank. It takes its time studying my body, and my equipment – and snarls with disapproval. It grabs my visor suddenly, and watches me instinctively flinch and recoil. It lets me go and rolls its eyes while I fall back in shock.
+The lifeform’s disdain is polpable. I think of ways to turn this encounter around…</td>
+    <td>
+    <p>Bow – This will decrease your Vy’keen reputation.</p>
+    <p>Threaten with multi-tool – This will net you a new multi-tool and some Vy’keen reputation.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The warrior is building a nuclear warhead. The plans it holds in its hand are unmistakeable. A complicated sequence of technology blueprints and isotopic chemical reactions is waiting for the final addition of an element to be complete.
+There are countless lives on an unknown planet, far out in the cosmos, tha twould one day end due to this lifeform’s work…</td>
+    <td>Complete warhead manufacture (50 Plutonium) – This will lead to increased Vy’keen standing, over 1k units and a blueprint.</td>
+  </tr>
+  <tr>
+    <td>As I approach, the warrior appears alert and welcoming. Suddenly, however, a personal alarm sounds from its datapad. The lifeform instinctively falls into some kind of trance. Its eyes mist over, it stares straight through me and it mumbles the same strange mantra over and over again.
+The trading vault at its feet appears unlocked, but there are security observation cameras dotted around the facility…</td>
+    <td>
+    <p>Leave the warrior alone – This will increase your standing with them, and give you a blueprint.</p>
+    <p>Wake warrior – This will decrease your standing with the race.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The warrior is tracking the paths of hundreds of warships across a galactic map, all converging on the same planetary system. This does not bode particularly well for the system in question… which appears to be populated by beaked traders of some variety.
+A course plotted by the warrior itself has come up short. It cannot make the complete journey. It slams its fist against the terminal and howls until spittle flecks my visor.</td>
+    <td>Give fuel (50 Plutonium) – This will net you a blueprint and some reputation.</td>
+  </tr>
+  <tr>
+    <td>The warrior’s nostrils flare as I approach. It inhales deeply and barks out what could be a warning. I hurriedly mime that I am peaceful, and know little of its kind or language.
+It takes a second to think, then suddenly grabs my multi-tool while barking again into my visor – streaking it with saliva. It’s pointing at the indicator that shows which elements I carry. I do my best to keep calm.</td>
+    <td>Give isotope (10 Carbon) – You’ll learn a new Vy’keen word and get a blueprint.</td>
+  </tr>
+  <tr>
+    <td>The storage vault at the warrior’s feet shows clear signs of tampering. In fact, an explosive device has been attached to its hinges. The lifeform sees my shocked expression, and yelps in amusement.
+The bomb needs fuel for ignition, which would most likely blow the vault wide open. The warrior impatiently tries to explain what should happen next…</td>
+    <td>
+    <p>Report suspect behaviour (Vy’keen Ally or above) – You’ll get an increase in reputation and a blueprint.</p>
+    <p>Use rare isotope (50 Plutonium) – This will net you a new blueprint and increased Vy’keen standing, but also some damage.</p>
+    <p>Use uncommon isotope (50 Thamium9) – This one rewards you with a new multi-tool.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The warrior seems pleased to see me. It barks twice, then retrieves two carved objects from behind its terminal. They are old, and it feels strange to see such ancient creations inside a technological hive like this…
+The first is a chipped and bloody blade. The second is a battered shield.</td>
+    <td>
+    <p>Choose the shield – Exosuit Tech</p>
+    <p>Choose the blade – You’ll get a new multitool if you pick this.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The warrior looks at me with fire in its eyes. This species is clearly aggressive, and I doubt I’m welcome, yet the lifeform bows in greeting. Tradition and honor perhaps dictates it.
+I don’t feel in imminent danger, and am about to turn and leave when the creature points towards my multi-tool. It barks with concern, and makes a motion to suggest that I should hand it over.</td>
+    <td>Hand over the multi-tool – The warrior will give you a new one.</td>
+  </tr>
+  <tr>
+    <td>The downbeat lifeform is studying the image of another young warrior on its pad. The pictured warrior looks virile and impressive. It has facial tendrils that are outstretched. It appears rich, of good breeding stock. The look in its eyes is… sultry.
+The lifeform looks to me with questioning eyes. It clearly needs someone to talk through this with.</td>
+    <td>
+    <p>Accept on the lifeforms behalf – You’ll get a blueprint and some units.</p>
+    <p>Advise acceptance – You’ll get a blueprint and increased standing with the Vy’keen.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>The floor feels unsteady, and something clicks beneath my feet. The screen locks. Systems are aware I’m not the lifeform that usually operates here…</td>
+    <td>Reduce weight – Blueprint, Faction standing increased.</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
