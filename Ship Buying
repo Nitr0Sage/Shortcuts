@@ -34,6 +34,11 @@ h1 {
     overflow: hidden;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 </style>
 </head>
 <body>
@@ -46,16 +51,16 @@ h1 {
 <div class="subSectionTitle">Section I : Fighters</div>
 <div class="subSectionDesc">Fighters are a basic, staple ship. They are known for High Maneuverability and Damage, making them good starter ships. However, they usually lack Storage Slots, but can offer them for a higher price. There are 4 types of fighters you will see throughout your galactic travels.<div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982112184/D3962A0D51539BC461DE3F7A6066C397BC7D3372/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982112184/D3962A0D51539BC461DE3F7A6066C397BC7D3372/" class="responsive">
 <div class="subSectionDesc">This type is what I like to call "The Dolphin". They have a sleek, modern design, with a cockpit reminiscent of the one of the Starter Ship. Usually found in shades of blue, or teal. They are a Medium-High level ship, with more than average Storage Slots and Damage Boost. They can be found for around $2,000,000 for a class C, and average 18-22 Storage Slots. <div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982112007/594E560E74A07B7E4B2B8E8DADB8EFA1ADD4E1DE/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982112007/594E560E74A07B7E4B2B8E8DADB8EFA1ADD4E1DE/" class="responsive">
 <div class="subSectionDesc"> I call this ship type "Jetstream" because it showcases it's large turbine that basically makes up almost all of it's body. They are usually found in Dark Blue or Bright Red. They have high Damage Boosts in class B, but have, on average, less maneuverability than other fighters. They have an average of about 18-20 Storage Slots. These are great fighters, but are more than decent in other ways. Average cost: $1,700,000.<div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407470/61D5AC0C4750FA5ED94C95B549DCF8A3333B7FCD/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407470/61D5AC0C4750FA5ED94C95B549DCF8A3333B7FCD/" class="responsive">
 <div class="subSectionDesc">I named this ship type "The Original". This type is almost exactly the same as the original given fighter. This one in particular was around $4,000,000 I think. It, however, was class A with 22 slots.They are very rarely seen, and I would say, not worth it. You could buy a class B of any other fighter and get just as much out of it for half the price.<div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407266/90EF45A018FED0C2EC8EF5360D23320818387F1F/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407266/90EF45A018FED0C2EC8EF5360D23320818387F1F/" class="responsive">
 <div class="subSectionDesc"> This type of ship I nicknamed the "Mosquito" for obvious reasons. If you couldn't tell, its most distinctive feature is it's long pointy nose, looking like the piecing beak of a mosquito. They have relatively high speeds with medium damage. They have about 16-20 Storage Slots at class C, Making them fast, lightweight fighters. They fit the class pretty good, and an average of $1,700,000<div style="clear: both"></div></div>
 
 
@@ -63,10 +68,10 @@ h1 {
 
 <div class="subSectionDesc">Blunt and blocky, these ships aren't very appealing to the eye, a dealbreaker for most consumers. But if you can look past their shapes and Trademark rectangular cockpit window, you can see why these ships are very appealing.<div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407369/A7B79BA46B5FD1D90CF966DF57DFEA055EE452A5/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407369/A7B79BA46B5FD1D90CF966DF57DFEA055EE452A5/" class="responsive">
 <div class="subSectionDesc">Although they have very different looks, they all are relatively the same. Here are the reasons why one of these is worth its money:<div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407586/52D86D0437F379773AD7509FB1D13613568725B6/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407586/52D86D0437F379773AD7509FB1D13613568725B6/" class="responsive">
 <div class="subSectionDesc">WIP<div style="clear: both"></div></div>
 
 
@@ -79,7 +84,7 @@ h1 {
 
 <div class="subSectionDesc">Explorers are known for having a very... interesting body design. They are usually seen with Domed cockpits but are also seen with corner glass, which will be shown. Unlike fighters, there are only about 2 diferent types of explorers.<div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407120/2FCA37ED1A9EFFE22429ABDC2A610209A7A95D96/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/913533862982407120/2FCA37ED1A9EFFE22429ABDC2A610209A7A95D96/" class="responsive">
 <div class="subSectionDesc">WIP<div style="clear: both"></div></div>
 
 
@@ -87,10 +92,10 @@ h1 {
 
 <div class="subSectionDesc">Ahh, the finer things in life. Living in excess, just like the 80's. Exotic ships are rare and unique, falling under the S-Class tier of ship. They have high WarpDrive Boosts, but less Damage/Shield than other S-Class ships. You could consider these like “Grand Touring” luxury cars. <div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/979981833838245010/21694658F25986EAC082098B0B0A6E3D2DA644EA/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/979981833838245010/21694658F25986EAC082098B0B0A6E3D2DA644EA/" class="responsive">
 <div class="subSectionDesc"> "Royal Ships"- These are always known for the Regal trim around the Sphere shaped cockpit. They have an average of about 14-16 useable Storage Slots, and around 5 Technology slots. These are great for  showing off to your friends about how lucky you are, but not exactly much else. These ships are always fetching a pretty penny, while being priced around $9,000,000-$11,000,000<div style="clear: both"></div></div>
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/979981833838245631/BE650D51C7B4149EE1CC1AAFDB431F1152DF72A4/">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/979981833838245631/BE650D51C7B4149EE1CC1AAFDB431F1152DF72A4/" class="responsive">
 <div class="subSectionDesc"> "Space Squids"- Talk about design... Not many people know these S-Class ships. A bit more pricey and a lot more rare. Unlike the last ship, this exotic can show off some worth for its exorbitant price. HyperDrive being on the top along side maneuverability allows these ships to easily navigate through obstacles. They can be equipped fairly for one with an average of 15-17 useable Storage Slots and 6 Tech slots. These don’t come cheap and will cost about $13,000,000.<div style="clear: both"></div></div>
 
 </body>
