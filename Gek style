@@ -15,32 +15,105 @@ It looks me straight in the eyes, and makes a proposition.</td>
     <td>Report crime (Gek Valued cusmoter or above) – You’ll get a blueprint and improve your Gek reputation.</td>
   </tr>
   <tr>
-    <td>Berglunds snabbkop</td>
-    <td>Sweden</td>
+    <td>The trader seems ill. Its skin is flaking, and its eyes lack a certain luster. It slowly gabbles at me, and as it does its voice croaks.
+A strange dry, flat stench fills every corner of the facility. I inspect my exosuit for things I could offer it…</td>
+    <td>Give water from exosuit’s hydration system – You’ll increase your Gek standing and get a crafting schematic.</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
+    <td>The trader looks weak, but somehow cunning. It spins its datapad towards me, and I can see that it’s a multi-tool sales-creature. The prices of its technology blueprints are, however, eye-watering.
+It eyes me with a wary interest, waiting to see if I’ll bite…</td>
+    <td>Pressure lifeform into accepting less (10 UNITS) – You’ll get a blueprint, but your Gek reputation will decrease.</td>
   </tr>
   <tr>
-    <td>Koniglich Essen</td>
-    <td>Germany</td>
+    <td> The trader has been expecting me. It points to itself, opens its arms wide and beams pleasantly. It then points to me, and mimes its concern for my safety.
+It then pecks at my exosuit, indicating that it can make my journey more bearable.</td>
+    <td>Request help with planetary conditions – This will get you some reputation and a new blueprint.  Request help with the Sentinels – Gek reputation increase, and Multi-tool.</td>
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Canada</td>
+    <td>The small creature is busy adding up trade profits when I appear. Its eyes open wide in anticipation of our first contact, and it rubs its fingers together greedily.
+It pecks emphatically at the monetary figures on its pad, then bounces up and down. I can’t help but notice that it smells amazing.</td>
+    <td>Pat the lifeform on the head – This will decrease your Gek reputation and the alien will refuse to speak to you again.   Give units (10 UNITS) – This one will increase your Gek reputation and get you a blueprint.</td>
   </tr>
   <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Italy</td>
+    <td>The lifeform clucks and gabbles as it studies my equipment. It gently pecks at areas of my exosuit that show wear and tear, then runs its gloved fingers over my multi-tool to look for irregularities and imperfections.
+Suddenly staring up at me, it squawks an offer and spins a tablet that shows the cost of its services.</td>
+    <td>Pay for multi-tool inspection (100 units) – You’ll receive a blueprint and Gek rep.</td>
   </tr>
   <tr>
-    <td>North/South</td>
-    <td>UK</td>
+    <td>The lifeform sits in a foul-smelling funk of its own creation. The trading screen behind ot is empty, the equipment it carries is old and uncared for and its suit barley looks alright.
+The demoralized trader looks up at me with hope in its eyes.</td>
+    <td>Give units (10 units) – You’ll get increased standing with the Gek and a blueprint.</td>
   </tr>
   <tr>
-    <td>Paris specialites</td>
-    <td>France</td>
+    <td>The Lifeform’s Eyes widen in surprise when I go to talk to It. It leans back, and watches for sudden movements. It’s very clearly never seen anything quite like me before.
+I mime that I can’t speak its language and, increasingly reassured, the beaked trader indicates that in exchange for certain elements its willing to help.</td>
+    <td>Give isotope (10 carbon) – Learn 2 new Gek words
+Give oxide (10 Iron) – Learn 2 new Gek words
+Give silicate (10 heridium) – Learn 2 new Gek words</td>
+  </tr>
+  <tr>
+    <td>The trader eyes the facility exit door sadly, as if it had been stuck in here for a while. It reaches down with its beak and dejectedly pecks at its suit’s power cells and life support system.
+It looks run down. The lack of chearge means that it’s ill-equipped for the planetary conditions and predators that rage outside.</td>
+    <td>Give Silicate element (10 Heridium) – You won’t get anything.   Give Isotope element (10 Carbon) – You’ll be rewarded with a blueprint and increased Gek reputation.</td>
+  </tr>
+  <tr>
+    <td>The Trader emits a strong, flowery scent, which quickly enters my exosuit system. I feel overcome with nostalgia for a perfect place I have never visited. I want to sing.
+Flushed with Joy, I try to signal my thanks to the trader for this olfactory gift, but it makes clear that it expects something in return.</td>
+    <td>Refuse – You’ll receive a new blueprint and a fart.   Give rare oxide (200 Titanium) – Increased standing with the race.   Give units (100 Units) – The lifeform will fart in your general direction.</td>
+  </tr>
+  <tr>
+    <td>The lifeform is poring over complex starship schematics and holding its breath, but the holographic blueprints look corrupted. Damaged in-flight, perhaps. The forlorn trader, its face smudged by atmospheric dust that somehow breached its ship, looks up to me for help.</td>
+    <td>Show Deflector Shield blueprints – Your standing with the Gek will increase and you’ll get a blueprint.</td>
+  </tr>
+  <tr>
+    <td>The trader pulls open a noisy trade vault. A close inspection reveals that it’s full of writhing mollusks. They are pink and slug-like, with sharp bloodied teeth.
+The lifeform suggests that inserting one in or around my face would have some benefits. What I can’t quite make out, however, is which orifice it means…</td>
+    <td>Insert slug in mouth – Nothing happens.   Insert slug in ear – You’ll learn three Gek words.  Insert slug in nose – Lose health.</td>
+  </tr>
+  <tr>
+    <td>The visibly upset lifeform shows me a holographic video of attack craft forcing a trade ship to crash land on this planet’s surface. Footage taken from orbit shows waiting pirates swarm the cargo hold in a haze of plasma rounds.
+The trader then points to the elements I’ve mined, and looks concerned – accusatory even. It emits a packet of gas that smells troubled.</td>
+    <td>Reassure with Boltcaster – Decrease Gek reputation.  Reassure with Mining Beam – Increase Gek reputation.</td>
+  </tr>
+  <tr>
+    <td>Images of warrior battle freighters fill the shocked trader’s screen. They dwarf small trader ships as the pass by, like predatory fish innocuously swimming among their prey.
+The panicked lifeform points at the trade, storage and resource vaults around our feet and shouts in fear.</td>
+    <td>Open Resource Vault – You’ll get ammunition (carbon), and increase in Gek reputation.   Open Storage Vault – You’ll get a Multi-Tool Blueprint.  Open Trade Vault – You’ll get a Multi-Tool.</td>
+  </tr>
+  <tr>
+    <td>The trader’s screen blinks angrily with a demand for urgent action. It worriedly shows me a list of items, each with a monetary figure attached. A timer is ticking down.
+The lifeform holds its breath, and looks up to me with bulging eyes. It pecks at the sleeve of my exosuit. There are only seconds remaining.</td>
+    <td>Waive money demand (Gek Best Friend or above) – Blueprint, Gek reputation increase, and Microdensity Fabric item.   Pay full amount (100 UNITS) – Blueprint, Gek reputation increase.</td>
+  </tr>
+  <tr>
+    <td>The trader is studying a stash of interesting-looking technology and weaponry that’s been dragged through this facility and left inside a disposal vault. It looks at me conspiratorially, and indicates the dangerous-looking symbol that’s daubed on the vault hatch.
+The equipment appears rusted and broken on-screen, but if we were to eject it all out onto the floor of the outpost we’d be able to better investigate. The trader looks at me, shrugs and holds its breath.</td>
+    <td>Remove and examine equipment – Technology Blueprint   Incinerate equipment – Gek standing increase, 1 900 Credits.</td>
+  </tr>
+  <tr>
+    <td>The second the trader goes to greet me it becomes covered from head to foot with arcs of electricity. The blue sparks fade, and it grabs the lapels of my exosuit as if possessed. It screams at me in wild-eyed desperation.
+I feel like there’s a 99.9% probability that the frantic motions it’s making towards the products I carry is an indication of what it wants…</td>
+    <td>Give rare silicate (50 Chrysonite) – Multi-Tool  Give rare isotope (50 Plutonium) – Exosuit upgrade Blueprint  Five rare oxide (50 Titanium) – Ship upgrade Blueprint</td>
+  </tr>
+  <tr>
+    <td>The air around the beaked lifeform smells foul. It seeps into my exosuit and makes me gag. Noticing my expression, the trader pecks at an element it carries. It breaks the unknown substance into pieces, then swallows each whole.
+There is a deep gurgle, and the trader emits a gas packet that smells delightful. The creature wipes its empty hands, and beams at me with pleasure.</td>
+    <td>Thank with common silicate (10 Heridium) – You’ll receive units.   Thank with common oxide (10 Iron) – 19 Nanites, Gek reputation increase.  Thank with common isotope (10 Carbon) – You’ll receive units.</td>
+  </tr>
+  <tr>
+    <td>The trader seems to have recently woken – its eyes are crusty, and its beak is flecked with dried drool. It is very clearly not hard at work…
+The lifeform lazily indicates a nearby terminal, upon which a product formula is displayed and is waiting for full input. I am ushered towards it, before the trader closes its eyes briefly to try to get some more sleep.</td>
+    <td>Report Lazy worker (Gek Rank: Friend or above) – Gek reputation increase   Take product formula – Blueprint   Input product formula – Microdensity Fabric item</td>
+  </tr>
+  <tr>
+    <td>The trader bounces excitedly while it boots up a graph that spins gently in front of me. There are three colored lines-a plunging blue one, a soaring red one and another that’s a fairly flat and uneventful yellow.
+The squat little lifeform babbles a little, points to itself and hops from foot to foot. It seems to want to trade items for elements.</td>
+    <td>Offer Oxide element(10 iron) – Nanites items  Offer Isotope element(100 carbon) – Multi-Tool   Offer Silicate element(100 heridium) – Microdensity Fabric item</td>
+  </tr>
+  <tr>
+    <td>A mass-mailed corporate messages sit unread on the terminal. Its full of high numbers and seemingly impressive profit margins.the tone seams satisfied, and grated full.
+At its foot the employee can choose between one of two mage: – galactic unit account, or a full hold of cargo.</td>
+    <td>Choose the unit account – Gek standing increase, and Units.   Chosse ship’s cargo – Gek standing increase, and Blueprint</td>
   </tr>
 </table>
 
