@@ -68,8 +68,61 @@ h1 {
     <th style="width:40%;">Outcomes</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>The security alert is scrambling the screen. It's a chaotic jumble of words. There's just enough visable text to point me towards the right workflow, and potenially to bring the installation back online</td>
+    <td>Space Station - Rewards with Tech</td>
+  </tr>
+  <tr>
+    <td>The facility's harvest is underway. I can speed up systems by boosting some of the machinery operating below me. What appears to be a power management screen is open on the terminal.
+</td>
+    <td>Boost Electromagnetic Coil - Rewards with Tech, or Loot</td>
+  </tr>
+  <tr>
+    <td>The facility is processing a signal that emanates from a distant location deep in space. Endless processing units are combining to crack the code of a strange mathematical langauge. Rare elements are being pulled from the resource vaults at [Screenshot cuts the rest off]</td>
+    <td>
+    <p>Place Rare Oxide in vault - Rewards with Tech, or Loot</p>
+    <p>Take items from vault - Unknown (If you know tell me!)</p>
+    </td>
+  </tr>
+  <tr>
+    <td>A biological probe antenna launches from the terminal and fuses with my exosuit. I can't move. There's no way to tell if this is a normal function, or a security measure.</td>
+    <td>Escape - Reward unknown, but is the correct answer</td>
+  </tr>
+  <tr>
+    <td>The security alarm hasn't impacted production. Below my feet unseen equipment prepares the mineral harvest. I can speed up the process by eliminating unnecessary systems. The on-screen automated report will help...</td>
+    <td>Remove gravitational stabilisers - Reward unkown, but is correct answer</td>
+  </tr>
+  <tr>
+    <td>I open a list of military achievements that's waiting for upload. There are images of distant battles, bloodied robots and vast explosions. A covering note clearing expects somthing in return, but the author chose not to send it.</td>
+    <td>Send war record - Rewards with a new multitool.</td>
+  </tr>
+  <tr>
+    <td>A animated gilled blob is on-screen waving a gun. It talks in the language of the warriors, but brightly and happily. It springs happily between bloodied runes, and then asks for a donation of units.</td>
+    <td>Insert units (100 UNITS) - Rewards with words from Vy'keen langauge, but more than one word.</td>
+  </tr>
+  <tr>
+    <td>Military insignia and images of recently destroyed sentinals fill the screen. alien propaganda imagery takes glory in the destruction. I can respond with a numerical value, and nothing else.</td>
+    <td>Input a small number - Rewards with reputation, and a blueprint or a multitool... I find this one may vary depending on how many sentinals are on the world you are visting.
+</td>
+  </tr>
+  <tr>
+    <td>Interferance from the security alert has turned the screen to static. I can hardly make out anything beyond a few words. If I can work out which workflow has been scrambled I can restore systems.
+</td>
+    <td>Photon Cannon - Rewards with reputation, and a blueprint for ship photons</td>
+  </tr>
+  <tr>
+    <td>A huge list of equipment is waiting to be sent off-world. It's a stock list of some sort: everything has been confirmed and ticked off.</td>
+    <td>
+    <p>Uncheck 1 item and sends - Rewards with a multitool</p>
+    <p>Send stock list - Reputation boost, reward unknown</p>
+    </td>
+  </tr>
+  <tr>
+    <td>This is a military terminal, in a facility that seems recently vacated. Three large databanks have been partially deleted, and will require heightend processing power to restore them. A rare silicate would likely do the trick. Databank alpha bares the emblems of the warrior race, but beta and gamma are otherwise unmarked.</td>
+    <td>
+    <p>Restore Data Bank Alpha (10 Chrysonite) - Rewards with reputation, and words from the vyk'een language</p>
+    <p>Restore Data Bank Gamma (10 Chrysonite) - Rewards with Korvax langauge, and maybe Reputation.</p>
+    <p>Restore Data Bank Beta (10 Chrysonite) - Rewards with Gek Langauge, and maybe Reputation.</p>
+    </td>
   </tr>
 </table>
 
