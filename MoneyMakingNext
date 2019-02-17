@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Ship Buying</title>
+<style>
+
+body {
+  font-family:0;
+  background:#e4e4e4;
+  color:#000;
+  text-align:center;
+  margin:30px;
+  }
+  
+h1 {
+  font-size:27px;
+  margin:0;
+  }
+
+.subSectionTitle {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    color: #66C0F4;
+    font-size: 18px;
+}
+
+.subSectionDesc {
+    line-height: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+div.bb_h1, .bb_wysiwyg h1 {
+    font-size: 15px;
+    color: #5aa9d6;
+    font-weight: normal;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Money Making Guide</h2>
+
+<br>
+<div class="subSectionTitle">Warning</div>
+<div class="subSectionDesc">I am not 100% sure about the features of the new update therefore I advise you leave contact me to correct me if I have overlooked something or made a mistake at some point during the guide. I do understand this economy system has received minor changes and may still change in future updates to come. I shall change the guide if I learn anything new. I will also be updating the guide as I do more testing so make sure you keep your eyes on any changes to the guide.<div style="clear: both"></div></div>
+<br>
+<div class="subSectionTitle">Obtaining an Economy Scanner</div>
+<div class="subSectionDesc">The economy scanner is a piece of technology added in by the Atlas Rises 1.3 patch it is the center piece for traders to plan their trade routes.<div style="clear: both"></div></div>
+<br>
+<br>
+<div class="subSectionDesc">The blueprint can be collected from Specialist Polo after following the first part of the Space Anomaly questline. It's fairly cheap to build and is worth building. (I advise building it in a tech slot onboard your ship to avoid wasting cargo space.)<div style="clear: both"></div></div>
+<br>
+<br>
+<div class="subSectionDesc">When you've installed it to you're ship go into space and go onto your galactic map and look change the filter using the up or down arrow to "Economy". This will change the colours of the systems, the colours stand for the type of industry of that specific system.<div style="clear: both"></div></div>
+<br>
+<br>
+<br>
+<br>
+<div class="subSectionTitle">The Galactic Map Economy Filter</div>
+<div class="subSectionDesc">The colours are as follows:<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">Red = Power Generation<div style="clear: both"></div></div>
+<div class="subSectionDesc">Orange = Mining <div style="clear: both"></div></div>
+<div class="subSectionDesc">Cyan = Nano Construction<div style="clear: both"></div></div>
+<div class="subSectionDesc">Green = Trading, Shipping / Mercantile<div style="clear: both"></div></div>
+<div class="subSectionDesc">Yellow = Industrial / Manufacturing<div style="clear: both"></div></div>
+<div class="subSectionDesc">Blue = Science<div style="clear: both"></div></div>
+<div class="subSectionDesc">Purple = Ore Processing / Material Fusion<div style="clear: both"></div></div>
+<br>
+<br>
+<div class="subSectionDesc">These systems work hand in hand, meaning systems like orange work better with red and yellow systems. You can buy ores cheaply in orange systems and sell them for much higher in the red and yellow systems meaning you can set up trade routes using a base terminus or by warping between systems. There is a spreadsheet explaining this further in more detail I've linked in the 'Trading Between Systems' section of the guide.<div style="clear: both"></div></div>
+<br>
+<br>
+<br>
+<br>
+<div class="subSectionTitle">Deteriation of Sales Prices</div>
+<div class="subSectionDesc">The more you sell a specific item the amount of units the Galactic Trade Network (GTN) or trader is willing to give you decreases. Therefore, the best way to sell items is always to sell in bulk, That way you are going to be selling large quantities of goods without the cost changing. Once an item has dropped significantly in price I advise you to store those specific items either in a container in your base or on a freighter until the price has gone back up to decent amount per item and then sell the items.<div style="clear: both"></div></div>
+<br>
+<br>
+<br>
+<br>
+<div class="subSectionTitle">Trading Between Systems</div>
+<div class="subSectionDesc">There has been extensive research into this topic. Therefore, I'm going to try and simplify it for the guide.<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">Firstly, Selling a produced item to a system to a system that is orducing that item will decrease the S/Selling value of that system. However, buying will never change the selling prices and selling will never change the buying prices. Selling items appears to drop the price to a maximum of roughly 20% for the respective item. The S/B values changing appears to have 0 impact on the prices of item unrelated to the industry of the respective system. Finally their appears to be no changing in the quality of the system economy e.g. 'Balanced' will stay as 'balanced' and 'wealthy' will stay as 'wealthy'<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">Two trade routes have been found and brought to my attention:<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">Red->Orange->Yellow->Cyan->Red<div style="clear: both"></div></div>
+<div class="subSectionDesc">Blue->Green->Purple->Blue<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">Also there is a <a href="https://docs.google.com/spreadsheets/d/1Zg2ZLcVB7qNeADMI8XBNtoGrllzF7m4NffLsyaSwG2U/edit#gid=0">spreadsheet</a> in the works that has proven quite useful for understanding the sales prices of trade goods in certain systems.<div style="clear: both"></div></div>
+<br>
+****************<div class="subSectionDesc">Be sure to check the comments for the full explanation by the creator of the research Slickdrac.<div style="clear: both"></div></div>
+<br>
+<br>
+<br>
+<br>
+<div class="subSectionTitle">General Advice about the wealth of systems</div>
+<br>
+<div class="subSectionDesc">There are new trade goods that sell extremely well such as circuit boards and liquid explosives which can sell for well over 1 million units in certain systems.<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">I heavily advise hanging around in a wealthy system because the ships that spawn have high stats and capacity and tend to sell for cheaper.<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">The wealth of systems determine how many goods are sold there and how good the ships are that fly around and land at stations. I warped into a wealthy system, landed at the space station and then I bought one of the new "Exotic" S Class ships.<div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">Farming plants is a very lucrative method of making money now. Combining plants and ores to make new trade goods is an effective way to make a decent amount of cash.<div style="clear: both"></div></div>
+<br>
+<br>
+<br>
+<br>
+<div class="subSectionTitle">New ways of making money in NEXT and the changes it brought.</div>
+<br>
+<div class="subSectionDesc">Ok, I've played enough of the NEXT update to safely say I understand all of the changes that have been made regarding gameplay. Fortunately, no massive changes have been made to the trading mechanics of the game except for new commodities and items being added to the game. I've found several good ways of making bank during the ~30 hours I've had on the new patch. These include but are not limited to:<div style="clear: both"></div></div>
+<br>
+<div class="bb_h1"> Larva Cores:</div>
+<div class="subSectionDesc">When you first start on the new patch you'll likely come across an item ouside of abandoned buildings called a 'Whispering Egg' they spawn in clusters of around five and there will be several nests around the buildings. <div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">When you break these eggs a group of burrowing horrors will spawn and these creatures do a ton of damage if you are reckless when breaking their eggs. The eggs contain 'Larva Cores' which can be sold for around 95,000 units per item. They can stack up to 5 and if you fill your inventory and ship with them at the start of the game the money you will gain from selling them will set you up and send you well into the mid-game within the first couple of hours of gameplay. A trick to grabbing the cores is to break one egg whilst standing on top of the build and then proceed to do a full 180 degree spin and grab the ones on the opposite side of the build this way you can grab the eggs without being killed by the creatures that spawn. If you kill a burrowing horror another will spawn in its place which renders combat useless in this farm.<div style="clear: both"></div></div>
+<br>
+<br>
+<div class="bb_h1"> Cryo Pumps </div>
+<br>
+<div class="subSectionDesc">This is the best way of making cash in the end-game that I have found so far and it is very easy. What you have to do is use signal locators to find manufacturing plants and keep going from factory to factory until you get the blueprint for the 'Cryo Pump'. To build this you require 'Hot Ice' and 'Thermic Condensate'. <div style="clear: both"></div></div>
+<br>
+<div class="subSectionDesc">What you should then do is head to a space station and sit in the hangar and wait for ships to fly in. Now, head up to the pilots and trade with them and buy as much thermic condesate and hot ice as you can. They generally cost around 400k each. Once you have a chunky amount of hot ice and thermic condensate you can then craft a lot of cryo pumps. These pumps sell for around 2,000,000 units each. For 18 of these I earned around 40,000,000 units and could safely buy whatever I wanted after a couple of runs.<div style="clear: both"></div></div>
+<br>
+<br>
+<div class="bb_h1"> Scanning New Flora and Fauna </div>
+<br>
+<div class="subSectionDesc">The new patch brought along randomly rolled upgrade modules for your technology. The new S-Class scanner modules can grant upwards of 7000% more credits for scanning fauna and 10000% more credits for scanning flora. You can buy these modules at some space stations at the multi-tool vendor on the left and side of the station. If you stack multiple of these modules together you can get 100,000s of credits from each new creature / plant you scan.
+You can make a very steady flow of cash by exploring and adventuring on new planets and by scanning everything you see. Uploading the discoveries will give you nanites to buy new upgrades for your multi-tool, ship and exosuit. So it is quite a progressive and highly rewarding method for making bank.
+<div style="clear: both"></div></div>
+<br>
+<br>
+<div class="bb_h1"> Commanding a fleet </div>
+<br>
+<div class="subSectionDesc">The new freighter system has added frigates that can be recruited and sent out on expeditions, this can make a reasonable amount of money throughout the game and is a fairly passive system. You send you frigates out on missions and then play the game while you wait for them to complete their tasks. Just make sure they aren't being sent to their doom by keeping them repaired and making sure they are being sent to the correct missions. You don't want to be sending the combat specialists to trade missions because their negotiation skills are generally pretty poor. Likewise for the other types of ships, don't go sending your traders to combat missions because they will die pretty quick. These frigates can be recruited for a large sum once you have a capital ship. You can get your first capital ship for free by helping them out when you see a space battle unfold. The commander will hail you and send you a communication request. Once you've spoken to him on the ship he will make you an offer for his ship. Some people have reported getting 30 slot A-Class capital ships for free by helping them in combat. So, it is worth taking to time getting one and setting it up.<div style="clear: both"></div></div>
+
+</body>
