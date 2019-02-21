@@ -54,7 +54,7 @@ h1 {
   background-color: #f1f1f1;
 }
 
-#myTable tr, td #completed {
+#myTable tr.selected, td, {
   background-color: #4CAF50;
   color: white;
 }
@@ -180,6 +180,20 @@ function myFunction() {
       }
     }       
   }
+}
+
+var trs = document.querySelectorAll("tr");
+for(var i = 0; i < trs.length; i++){
+    trs[i].addEventListener("click", function(){this.className += " selected";});
+}
+var trs = document.querySelectorAll("tr");
+for(var i = 0; i < trs.length; i++){
+    trs[i].addEventListener("click", function(){
+        var cn = this.className, thc = " selected", start_idx = cn.indexOf(thc);
+        if(start_idx == -1) cn += thc;
+        else cn = cn.replace(thc,"");
+        this.className = cn;
+    });
 }
 </script>
 </body>
