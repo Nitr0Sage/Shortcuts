@@ -54,11 +54,142 @@ h1 {
   background-color: #f1f1f1;
 }
 
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
 </style>
 </head>
 <body>
 
 <h2>Quest Dialogue</h2>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openRace(event, 'VyKeen')">Vy'Keen</button>
+  <button class="tablinks" onclick="openRace(event, 'Gek')">Gek</button>
+  <button class="tablinks" onclick="openRace(event, 'Korvax')">Korvax</button>
+</div>
+
+<!-- Tab content -->
+<div id="VyKeen" class="tabcontent">
+  <h3>Vy'Keen</h3>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for quests.." title="Start typing in quest Dialogue">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Quest</th>
+    <th style="width:40%;">Outcomes</th>
+  </tr>
+  <tr>
+    <td> I am trying to read the glyphs on the ancient monument when I feel a strange chill. A layer of frozen gas suddenly coats the monolith from bottom to top. It’s so cold that I can see my breath inside my helmet.
+There is one small gap in the crystal ice, and I feel convinced that I could feed some of my mined elements through it, so they can come into contact with the monolith behind.</td>
+    <td>Insert isotope element (10 Carbon) – You’ll get an Atlas word, more reputation with the Vy’keen and a commodity item.</td>
+  </tr>
+  <tr>
+    <td>I see a strange vision. A small terrified creature emerges from the monolith and runs between my legs. I hear the noises of an ancient hunt: the howls of pack animals in pursuit and the thunder of hooves.
+Warriors on vast beasts charge through the rock, and amidst the chaos one sees me staring. It raises its facial tendrils in greeting, barks a few words and swings a bladed weapon down towards me.</td>
+    <td>Grab weapon – You’ll receive a new mutlitool and some Vy’keen reputation.</td>
+  </tr>
+  <tr>
+    <td> The body of a warrior emerges from the obelisk, a jagged tear in their midriff suggesting that the dangerous-looking multi-tool that sits in their hand was not enough to save them.
+The surface of the sculpted rock blurs and shows images of military worship. It’s trying to tell me something.</td>
+    <td>Take the multi-tool and leave – A new mutltitool (might be worse than the one you have) and decreased standing with the Vy’keen<br><br>Bury the soldier and multi-tool – You’ll get an Atlas word, increased Vy’keen reputation and a health refill.</td>
+  </tr>
+  <tr>
+    <td> I place my palm on the monolith, then stand back when it melts in response to my touch. Molten rock drips down the stone, exposing a hollow interior. Inside, I see riches that are beyond belief. Ancient technologies and cargo that would aid my journey.
+Lava continues to drop, and the edifice seems unstable, but equipment that could aid me is within arm’s reach. Suddenly, the voice of an ancient tribe shakes the ground I stand on..</td>
+    <td>Stand back – This’ll get you some Vy’keen respect and a commodity item.<br><br>Reach in – You’ll receive permanent damage to your exosuit and decreased standing with Vy’keen.
+</td>
+  </tr>
+  <tr>
+    <td> I am suddenly underwater. I am drowning. Water clogs my lungs. My chest is on fire. I gasp for air when there is none and feel only tepid liquids filling me inside and out. My vision is clouding. I know it is my time. This is it. This is what it feels like.
+Suddenly, a green hand thrusts itself through the surface of the water. The light is fading.</td>
+    <td>Die – This option will increase your maximum health and your Vy’keen reputation.</td>
+  </tr>
+  <tr>
+    <td>Two ancient stone cups materialise in front of the monolith. One is filled with a dark red viscous liquid, the other contains a sticky fluid that is bright yellow and smells powerfully bitter.
+On the stone tablet behind the cup ancient glyphs form an image. A powerful muscular warrior surrounded by a red halo challenges an opponent clad in bright yellow armour.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+
+<div id="Gek" class="tabcontent">
+  <h3>Gek</h3>
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for quests.." title="Start typing in quest Dialogue">
 
@@ -72,6 +203,24 @@ h1 {
     <td>Currently No Quests</td>
   </tr>
 </table>
+</div>
+
+<div id="Korvax" class="tabcontent">
+  <h3>Korvax</h3>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for quests.." title="Start typing in quest Dialogue">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Quest</th>
+    <th style="width:40%;">Outcomes</th>
+  </tr>
+  <tr>
+    <td>Currently No Quests</td>
+    <td>Currently No Quests</td>
+  </tr>
+</table>
+</div>
 
 <script>
 function myFunction() {
@@ -92,6 +241,28 @@ function myFunction() {
     }       
   }
 }
+
+function openRace(evt, raceName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(raceName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
 </script>
 
 </body>
