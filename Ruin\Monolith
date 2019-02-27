@@ -101,6 +101,7 @@ h1 {
   <button class="tablinks" onclick="openRace(event, 'VyKeen')">Vy'Keen</button>
   <button class="tablinks" onclick="openRace(event, 'Gek')">Gek</button>
   <button class="tablinks" onclick="openRace(event, 'Korvax')">Korvax</button>
+  <button class="tablinks" onclick="openRace(event, 'Neutral')">Neutral</button>
 </div>
 
 <!-- Tab content -->
@@ -115,75 +116,76 @@ h1 {
     <th style="width:40%;">Outcomes</th>
   </tr>
   <tr>
-    <td> I am trying to read the glyphs on the ancient monument when I feel a strange chill. A layer of frozen gas suddenly coats the monolith from bottom to top. It’s so cold that I can see my breath inside my helmet.
-There is one small gap in the crystal ice, and I feel convinced that I could feed some of my mined elements through it, so they can come into contact with the monolith behind.</td>
+    <td> I am trying to read the glyphs on the ancient monument when I feel a strange chill. A layer of frozen gas suddenly coats the monolith from bottom to top. It’s so cold that I can see my breath inside my helmet. There is one small gap in the crystal ice, and I feel convinced that I could feed some of my mined elements through it, so they can come into contact with the monolith behind.</td>
     <td>Insert isotope element (10 Carbon) – You’ll get an Atlas word, more reputation with the Vy’keen and a commodity item.</td>
   </tr>
   <tr>
-    <td>I see a strange vision. A small terrified creature emerges from the monolith and runs between my legs. I hear the noises of an ancient hunt: the howls of pack animals in pursuit and the thunder of hooves.
-Warriors on vast beasts charge through the rock, and amidst the chaos one sees me staring. It raises its facial tendrils in greeting, barks a few words and swings a bladed weapon down towards me.</td>
+    <td>I see a strange vision. A small terrified creature emerges from the monolith and runs between my legs. I hear the noises of an ancient hunt: the howls of pack animals in pursuit and the thunder of hooves. Warriors on vast beasts charge through the rock, and amidst the chaos one sees me staring. It raises its facial tendrils in greeting, barks a few words and swings a bladed weapon down towards me.</td>
     <td>Grab weapon – You’ll receive a new mutlitool and some Vy’keen reputation.</td>
   </tr>
   <tr>
-    <td> The body of a warrior emerges from the obelisk, a jagged tear in their midriff suggesting that the dangerous-looking multi-tool that sits in their hand was not enough to save them.
-The surface of the sculpted rock blurs and shows images of military worship. It’s trying to tell me something.</td>
+    <td> The body of a warrior emerges from the obelisk, a jagged tear in their midriff suggesting that the dangerous-looking multi-tool that sits in their hand was not enough to save them. The surface of the sculpted rock blurs and shows images of military worship. It’s trying to tell me something.</td>
     <td>Take the multi-tool and leave – A new mutltitool (might be worse than the one you have) and decreased standing with the Vy’keen<br><br>Bury the soldier and multi-tool – You’ll get an Atlas word, increased Vy’keen reputation and a health refill.</td>
   </tr>
   <tr>
-    <td> I place my palm on the monolith, then stand back when it melts in response to my touch. Molten rock drips down the stone, exposing a hollow interior. Inside, I see riches that are beyond belief. Ancient technologies and cargo that would aid my journey.
-Lava continues to drop, and the edifice seems unstable, but equipment that could aid me is within arm’s reach. Suddenly, the voice of an ancient tribe shakes the ground I stand on..</td>
+    <td> I place my palm on the monolith, then stand back when it melts in response to my touch. Molten rock drips down the stone, exposing a hollow interior. Inside, I see riches that are beyond belief. Ancient technologies and cargo that would aid my journey. Lava continues to drop, and the edifice seems unstable, but equipment that could aid me is within arm’s reach. Suddenly, the voice of an ancient tribe shakes the ground I stand on..</td>
     <td>Stand back – This’ll get you some Vy’keen respect and a commodity item.<br><br>Reach in – You’ll receive permanent damage to your exosuit and decreased standing with Vy’keen.
 </td>
   </tr>
   <tr>
-    <td> I am suddenly underwater. I am drowning. Water clogs my lungs. My chest is on fire. I gasp for air when there is none and feel only tepid liquids filling me inside and out. My vision is clouding. I know it is my time. This is it. This is what it feels like.
-Suddenly, a green hand thrusts itself through the surface of the water. The light is fading.</td>
+    <td> I am suddenly underwater. I am drowning. Water clogs my lungs. My chest is on fire. I gasp for air when there is none and feel only tepid liquids filling me inside and out. My vision is clouding. I know it is my time. This is it. This is what it feels like. Suddenly, a green hand thrusts itself through the surface of the water. The light is fading.</td>
     <td>Die – This option will increase your maximum health and your Vy’keen reputation.</td>
   </tr>
   <tr>
-    <td>Two ancient stone cups materialise in front of the monolith. One is filled with a dark red viscous liquid, the other contains a sticky fluid that is bright yellow and smells powerfully bitter.
-On the stone tablet behind the cup ancient glyphs form an image. A powerful muscular warrior surrounded by a red halo challenges an opponent clad in bright yellow armour.</td>
-    <td></td>
+    <td>Two ancient stone cups materialise in front of the monolith. One is filled with a dark red viscous liquid, the other contains a sticky fluid that is bright yellow and smells powerfully bitter. On the stone tablet behind the cup ancient glyphs form an image. A powerful muscular warrior surrounded by a red halo challenges an opponent clad in bright yellow armour.</td>
+    <td>Drink the viscous red liquid – Your wounds will be heald, you’ll learn a new Atlas word and get an item.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>The monolith shows images of creatures lying dead before it. Each sacrificed, butchered and offered up to whatever Gods were once worshipped. Suddenly, the head of a small woodland animal raises up through the earth below me. It stares ar me with wide-eyes, then gives a joyful skip when its tiny hooves reach ground level. Something is clearly expected of me…</td>
+    <td>Sacrifice the creature – You’ll get increased standing, a new Atlas word and a commodity item</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td> I become a part of a strange new reality. The ancient rock opens. Inside, the dried out heart of an ancient warrior is strung up between wooden pillars. It pulses slowly as it hangs there, still beating. Lying below it on a dusty floor are a set of wrinkled lungs that look forever doomed to wheeze stale air. A desiccated eyeball stares up at me. Unblinking.</td>
+    <td>Place lungs with heat – This one will increase your Vy’keen reputation</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>The Monolith rips like paper, opening a window to another world. It is laced with a giant web. Just within my reach, an ancient warrior lies cocooned. It has been there for centuries. Dead, vacant eyes stare through me and on into the landscape beyond. It carries a rusted multi-tool, while a bulging webbed sack on its chest suggest it might carry greater riches on its body. Suddenly, the strange leathery growth starts to move…</td>
+    <td>Search Body – You’ll learn a new Atlas word, and get Vy’keen Effigy. <br><br>Take Multi-tool – You’ll learn a new blueprint and an Atlas Word.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td> I live within a new reality. I am inside a vast coliseum and beneath a blood red sky. The noise is overpowering. Warriors scream and bark at the battle set up before them. Two combatants are squaring up on the crimson sand. One has lost its blade, and hides behind a shield. The other stalks towards it, with spear raised. I feel compelled to add my voice to the howl of the mob.</td>
+    <td>Support spear-wielding gladiator – You’ll learn an Atlas word and get a new multi-tool. <br><br>Support endangered gladiator – You’ll learn an Atlas word and get a new exosuit blueprint.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>I place my hand on the ancient structure and feel an intense heat burning within. Suddenly, as if attracted to my suit, a liquid metal starts to seep from a hole that’s been broken into the rock. What starts as a drip becomes a surge forcing itself through the gap. The monolit’s previous contents are draining, and its glow is starting to fade. A voice screams out.</td>
+    <td>Plug hole with oxide (100 iron) – You’ll learn an Atlas word, get increased Vy’keen standing and Vy’keen Dagger. <br><br>Plug hole with silicate (100 Heridium) – You’ll get a decrease in Vy’keen standing.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>A portal opens on the monolith, and the body of a huge winged animal falls to my feet. Its throat has been ritually cut, and its wings has been tattooed with faces of an ancient warrior tribe. The eyes though, the eyes look strange… Its original eyes have been cut out, and replaced by glittering red orbs. The more i look, the more they blaze. An advanced technology clearly lies at their center. Can i bear to desecrate this sacrifice for help with my journey?</td>
+    <td>Remove sacrifice’s eyes – You’ll learn an Atlas word, get decrease in Vy’keen standing and Vy’keen Dagger. <br><br>Respect sacrifice – You’ll learn an Atlas word, get increased Vy’keen standing and health and shield at maximum.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>The giant mouth of an ancient hound suddenly emerges through the face of the monolith. It opens its jaws wide, and foul-smelling spittle streaks my visor. My nausea is tempered by the sight of valuable commodities balanced on its giant tongue. In a sudden movement the hound shifts the goods to one side of its mouth, spraying saliva over my arms. There’s space on the tongue for more, should i wish to give up some of my cargo…</td>
+    <td>Place goods on giant hound tongue (10 Carbon) – You’ll learn an Atlas word, get increased Vy’keen standing, Vy’keen Effigy, and health at maximum. <br><br>Remove goods from giant hound tongue – You’ll take damage, decrease with Vy’keen standing and Microdensity fabric item.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>The monolith fragments before my eyes. It folds down in on itself, again and again, until it is a tiny red orb surrounded by dancing lights. It feels like something truly ancient, perhaps something divine, is showing me the origin of the strange constructions. The oxides i carry are physically dragging me towards it – desperate to help it rebuild. It’s not so much that I’m a pilgrim bearing offerings in hope of a blessing, but more that the elements i carry want to offer themselves…</td>
+    <td>Give common oxide (100 iron) – You’ll get an increase in Vy’keen standing. <br><br>Give uncommon oxide (50 zinc) – You’ll get an increase in Vy’keen standing, learn an Atlas word, and Health at maximum. <br><br>Give rare oxide (50 Titanium) – You’ll get an increase in Vy’keen standing, learn an Atlas word, Health and Shield at maximum, and Vy’keen effigy.
+</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>The body of a gulled blob creature materializes on the surface of the rock. It is an ancient sacrifice, impaled through its wide, open eyes with metal spears. Liquid is dripping from the body down the monolith through a channel cut into the rock by ancient hands. It can be diverted toward two carvings – one of a sun, the other of a moon.</td>
+    <td>Divert body liquid to sun – You’ll get an increase in Vy’keen standing, learn an Atlas word, Health at maximum, Blueprint. <br><br>Divert body liquid to moon – You’ll get an increase in Vy’keen standing, learn an Atlas word, Health at maximum, Blueprint (better version).
+</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>The body of a gulled blob creature materializes on the surface of the rock. It is an ancient sacrifice, impaled through its wide, open eyes with metal spears. Liquid is dripping from the body down the monolith through a channel cut into the rock by ancient hands. It can be diverted toward two carvings – one of a sun, the other of a moon.</td>
+    <td>Touch monolith – You’ll get an increase in Vy’keen standing, Vy’keen effigy, and take damage. <br><br>Stand still – You and your technology take damage, learn an Atlas word, get Vy’keen effigy. <br><br>Move away – You take damage.
+</td>
+  </tr>
+  <tr>
+    <td>A sudden pulse of destructive energy flows through my exosuit. My multi-tools sensor sense another build-up of energy growing deep within the monolith. It will soon unleash itself on me, and the landscape that surrounds the ancient site. I can use my Protection Mesh functions, to dampen the imminent energy wave, but systems are too overwhelmed to identify it…</td>
+    <td>Prepare to absorb radiation – You’ll get an increase in Vy’keen standing, Vy’keen effigy, learn an Atlas word, and 934 units.. <br><br>Prepare to absorb toxins – You take damage.</td>
   </tr>
 </table>
 </div>
@@ -199,8 +201,20 @@ On the stone tablet behind the cup ancient glyphs form an image. A powerful musc
     <th style="width:40%;">Outcomes</th>
   </tr>
   <tr>
-    <td>Currently No Quests</td>
-    <td>Currently No Quests</td>
+    <td>I’m inspecting the monolith’s surface when, suddenly, a ragged silicon claw grabs me. Despite being broken and fragmented, it holds me tight while an ancient metallic beak emerges from the living rock. It shouts in an ancient tongue, unaware of who or what I am.</td>
+    <td>Give silicate (10 Heridium) – You’ll get another word, some Gek reputation and a pricey item.</td>
+  </tr>
+  <tr>
+    <td> I hear a low rumble, which gradually builds into an ancient scream. It’s like no noise I’ve ever experienced. To this strange alien landscape it’s a calm silence, inside my helmet it’s a nightmarish cacophony of pain and death. Through the noise, however, I can make out some words within the screams.</td>
+    <td>Wait – Take damage and standing with Gek decreases. <br><br>Move away – You’ll get a Gek relic, an Atlas word, and an increased standing with the Gek. <br><br>Touch monolith – Take damage and standing with Gek decreases.</td>
+  </tr>
+  <tr>
+    <td>An Unseen replication of my own self and exosuit stalks around the edge of the monolith. It screams in an ancient tongue while forcing me down onto my knees. The doppelganger first places its boltcaster to my forehead, and then mimes cutting my belly open with the mining beam. It smiles pleasantly. I am to choose my desired execution.</td>
+    <td>A bolt to the brain – You’ll get bolt caster blueprint, gek reputation, 1000 units</td>
+  </tr>
+  <tr>
+    <td>A beak emerges from the ancient stone. It’s shouting, but can’t be heard. In the stone above someone, long ago, has scrawled advice for those who approach it. The beak screams wordlessly at me, furiously intoning the words of the ancient beings that once worshiped here. My scanner detects traces of oxides around it, but can’t specify which ones.</td>
+    <td>Feed beak rare oxide (titanium) – You’ll learn two Gek words. <br><br>Feed beak uncommon oxide (zinc) – You’ll learn two Gek words, one Atlas word, and get a Gek relic. <br><br>Feed beak common oxide (iron) – You’ll learn two Gek words, and one Atlas word.</td>
   </tr>
 </table>
 </div>
@@ -216,9 +230,82 @@ On the stone tablet behind the cup ancient glyphs form an image. A powerful musc
     <th style="width:40%;">Outcomes</th>
   </tr>
   <tr>
-    <td>Currently No Quests</td>
-    <td>Currently No Quests</td>
+    <td> I feel faint, as if my mind is being invaded. Pustules on my skin grow, bubble and pop – and I feel countless tiny stabbing pin-pricks scrabbling from each gaping hole. Suddenly metal spiders, perhaps tiny Sentinels, run up my shoulder and into my visor. Can this be real? This CANNOT be real. I start to scream.</td>
+    <td>Wait it out – You will gain a Korvax word, some reputation and an item</td>
   </tr>
+  <tr>
+    <td>Tiny floating tetrahedrons emerge from the planet’s surface and surround me. I try to wave them away with my multi-tool, but each time they swam closer to it – as if attracted to it somehow. I raise my multi-tool, and they shimmer blue as they dart this way and that. Closer and closer. They are within touching distance of my multi-tool. They make one final surge…</td>
+    <td>Let the tetrahedrons in – You’ll receive a new multi-tool blueprint, increased Korvax reputation and a new word.</td>
+  </tr>
+  <tr>
+    <td>I begin to feel dizzy. A strange lethargy comes over me, and I feel compelled to lie down in front of the ancient relic. This place feels calming. It feels like home, whatever that might have been. I know that if I trulfy wanted to fight the impulse to sleep I probably could, but I feel worm and comfortable basking in the glow of the ancient Ruin.</td>
+    <td>Resist – The monolith’s power will fade. <br><br>Sleep – You’ll get back to full health.</td>
+  </tr>
+  <tr>
+    <td>A flickering reflection of my own body emerges from a portal. It mimics every move I make. When I wave, it waves. When I raise my multi-tool, it copies instantly. The doppelganger makes a motion to suggest it wants something, and we both recoil when I realize I’ve instinctively matched its movements. Its body shimmers, but its equipment looks somehow real. Its multi-tool looks better than my own. The dimensional irregularity is fading.</td>
+    <td>Shoot doppelganger – You’ll receive damage and your Korvax rep will decrease. <br><br>Give multi-tool – You’ll get a worse multi-tool, learn a Korvax word and get some rep with them.</td>
+  </tr>
+  <tr>
+    <td>A chiselled hole appears at the foot of the obelisk. From its smoothened edges and the scraped markings around it, it’s clear that over centuries unknown creatures have pushed elements through this gap. It’s impossible to tell quite what will happen, but below it are three blocks of the exact same dimensions that look like they can be turned by a mechanism deep within the monolith itself. I search my gear for the rare elements that look like they could fit…</td>
+    <td>Insert rare oxide (50 Titanium) – You’ll get an Atlas word, suit blueprint and Korvax favor <br><br>Insert rare silicate (50 Chrysonite) – You’ll get a new multitool, Atlas word and favor <br><br>Insert rare isotope (50 Plutonium) – You’ll get an Atlas word and favor</td>
+  </tr>
+  <tr>
+    <td>For many ages it appears that pilgrims have carved numerical figures between the glowing glyphs of the monolith. Looking down, I notice an ancient coin. I scrape the ground with my boot, and unearth several more. The site is otherwise silent. Perhaps it’s eternally unresponsive, or perhaps it waits for something.</td>
+    <td>Take coins – You’ll take damage, get units, decrease Korvax offer units. <br><br>Offer units(10 units) – You’ll get increase in korvax reputation, an Atlas word, receive an item, and it heals you.</td>
+  </tr>
+  <tr>
+    <td>A chiselled hole appears at the foot of the obelisk. From its smoothened edges and the scraped markings around it, it’s clear that over centuries unknown creatures have pushed elements through this gap. It’s impossible to tell quite what will happen, but below it are three blocks of the exact same dimensions that look like they can be turned by a mechanism deep within the monolith itself. I search my gear for the rare elements that look like they could fit…</td>
+    <td>Insert rare oxide (50 Titanium) – You’ll get an Atlas word, a suit blueprint and a Korvax favor. <br><br>Insert rare silicate (50 Chrysonite) – You’ll get a new multitool, an Atlas word and a favor. <br><br>Insert rare isotope (50 Plutonium) – You’ll get an Atlas word and favor.
+</td>
+  </tr>
+  <tr>
+    <td>I am being watched. A red laser dot appears on the ancient stone structure. I’m a target. I turn, but can’t see the potential assailant. Somewhere out there on the alien landscape, someones about to pull a trigger. There’s no cover to speak of, and no time to get behind the obelisk. Suddenly, the words of an unknown power blaze brightly on the monolith.</td>
+    <td>Move back – You’ll get increase in korvax reputation</td>
+  </tr>
+  <tr>
+    <td> I see a strange vision. Blue light pours from the monolith as if a curtain has been dropped within. I hear a gentle hubub of voices, and catch a familiar smell on the breeze. I cannot remember my home, but I know that this is a doorway leads there.
+I ache for a past I cannot remember. Every inch of my soul wants to make the leap back. I look to the skies, and the infinity beyond. Can I truly abandon my journey, when it’s only just begun?</td>
+    <td>Resist temptation – You’ll get increase standing with Korvax, learn an Atlas word, receive an item. <br><br>Step back into the past – You’ll learn a new Atlas word, and replenish health.</td>
+  </tr>
+  <tr>
+    <td>The Monolith disappears. The landscape around me seems sane, but somehow the planetary vegetation has moved. Sitting central to where the mysterious stone once stood is a red glowing orb.
+The intensity of the orb burns the ground beneath it. It crackles with an unknown power. I feel compelled to pick it up, and become part of it. A distant voice speaks to me…</td>
+    <td>Hold the orb – The orb burns your skin, and you take damage. Standing with Korvax decrease. <br><br>Stand back – The orb plunges into your chest, reality is restored.</td>
+  </tr>
+  <tr>
+    <td>A child emerges from the monolith. It takes a few moments before i realize that… it’s me. I look carefree and innocent. The little one stares up at my exosuit, and tries to see me through my visor. The child suddenly starts to weep, and clings to my knees. It implores me never to leave. It doesn’t want to be alone. I should stay here forever. We should be reunited. Whole again once more.</td>
+    <td>Stay – Standing with Korvax decreases. <br><br>Comfort, then leave – Standing with Korvax increases, you learn an Atlas word, and get an item. <br><br>Leave – Standing with Korvax decreases.</td>
+  </tr>
+</table>
+</div>
+
+<div id="Neutral" class="tabcontent">
+  <h3>Neutral</h3>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for quests.." title="Start typing in quest Dialogue">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Quest</th>
+    <th style="width:40%;">Outcomes</th>
+  </tr>
+  <tr>
+    <td>There are three vast columns of words on the ancient structure, each written in a different alphabet. The first columns words are like savage runes scratched in sand, the second shows precise sequences of dots. The final column has wide and welcoming letters, almost appearing hand-written in hard stone. The dirt and blood of ancient hand prints cover the base of each column.</td>
+    <td>Press hand against letters – Learn a Gek word and an Atlas word. <br><br>Press hand against dots – This will teach you one Atlas and one Korvax word. <br><br>Press hand against runes – You’ll get a Vy’keen word and an Atlas word.</td>
+  </tr>
+  <tr>
+    <td> I’m running my fingers over the ancient glowing runes, when I look down. An expanding pool of liquid metal has rippled out of the obelisk’s base. My feet have already been covered. In the bright reflection I see my expression turn to horror as I begin to sink. I feel warming hands on my legs, pulling me down into the silver sheet. Every hazard detection device on my multi-tool is going haywire. Radiation, heat, cold… every danger imaginable.</td>
+    <td>Struggle – You’ll get increase in hazard protection, and take damage. <br><br>Sink – You’ll learn a new Atlas word, get technology repaired and receive an item.</td>
+  </tr>
+  <tr>
+    <td>Two stone blocks slowly revolve on the base of the monolith. Two beads of red light then trace images on each one. The red lights then pool together and liqueft in an indentation below. The closer I get, the more agitated the red pools become. The images both show masked electronic lifeforms. The first shows the lifeform absorbing power to break free from its shackles. The second shows it hiding from it captors.</td>
+    <td>Place hand on the lifeform taking shetler – You’ll get an Exosuit upgrade, and learn an Atlas word. <br><br>Place hand on the lifrform breaking free – You’ll get a new multi-tool blueprint, and learn new Atlas word.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+
 </table>
 </div>
 
