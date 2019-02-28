@@ -103,12 +103,14 @@ img {
 </head>
 <body>
 
-<h2>Crafting Tree</h2>
+<h2>Crafting And Items</h2>
 
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Crafting')">Crafting</button>
   <button class="tablinks" onclick="openTab(event, 'Refinery')">Refinery</button>
+  <button class="tablinks" onclick="openTab(event, 'Elements')">Elements</button>
+  <button class="tablinks" onclick="openTab(event, 'Items')">Items</button>
 </div>
 
 <!-- Tab content -->
@@ -123,7 +125,104 @@ img {
     <th style="width:20%;">Base Cost</th>
     <th style="width:20%;">How to get (or Recipe)</th>
   </tr>
-  <tr>
+<tr>
+    <td><strong>Alloys</strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>Aronium<font style="display:none;">Alloys</font></td>
+    <td>1546</td>
+    <td>Iron x 50 + Carbon x 50</td>
+  </tr>
+  </tr>
+    <td>Crolium<font style="display:none;">Alloys</font></td>
+    <td>35378</td>
+    <td>Chrysonite x 80 + Iridium x 100</td>
+  </tr>
+  </tr>
+    <td>Grantine<font style="display:none;">Alloys</font></td>
+    <td>35646</td>
+    <td>Iridium x 150 + Copper x 50 + Aronium x 1</td>
+  </tr>
+  </tr>
+    <td>Herox<font style="display:none;">Alloys</font></td>
+    <td>2887</td>
+    <td>Zinc x 20 + Plutonium x 20</td>
+  </tr>
+  </tr>
+    <td>Lemmium<font style="display:none;">Alloys</font></td>
+    <td>30937</td>
+    <td>Plutonium x 200 + 100 Titanium</td>
+  </tr>
+  </tr>
+    <td>Magmox<font style="display:none;">Alloys</font></td>
+    <td>30030</td>
+    <td>Carbon x 30 + Thamium9 x 300 + Plutonium x 300</td>
+  </tr>
+  </tr>
+    <td>Terumin<font style="display:none;">Alloys</font></td>
+    <td>39105</td>
+    <td>Emeril x 40 + Alumium x 40 + Herox x 1</td>
+  </tr>
+<tr>
+    <td>Carite Sheet<strong>Technology Components</strong></td>
+    <td>825</td>
+    <td>Iron x 50</td>
+  </tr>
+  </tr>
+    <td>Microdensity Fabric<font style="display:none;">Technology Components</font></td>
+    <td>1650</td>
+    <td>Iron x 50 + Platinum x 10</td>
+  </tr>
+  </tr>
+    <td>Electron Vapour<font style="display:none;">Technology Components</font></td>
+    <td>4950</td>
+    <td>Suspension x 1 + Plutonium x 100</td>
+  </tr>
+  </tr>
+    <td>Suspension Fluid<font style="display:none;">Technology Components</font></td>
+    <td>1100</td>
+    <td>Carbon x 50</td>
+  </tr>
+  </tr>
+    <td>Antimatter<font style="display:none;">Technology Components</font></td>
+    <td>5232</td>
+    <td>Electron vapour x 1 + Heridium x 50 + Zinc x 20</td>
+  </tr>
+  </tr>
+    <td>Dynamic Resonator<font style="display:none;">Technology Components</font></td>
+    <td>27500</td>
+    <td>Antimatter x 2 + Chrysonite x 100 + Microdenisty Fabric x 4</td>
+  </tr>
+  </tr>
+    <td>Night Crystals<font style="display:none;">Technology Components</font></td>
+    <td>35000</td>
+    <td>Market</td>
+  </tr>
+</table>
+
+</div>
+
+<div id="Refinery" class="tabcontent">
+  <h3>Refinery (Click an item to learn to craft)</h3>
+  
+
+
+</div>
+
+<div id="Elements" class="tabcontent">
+  <h3>Elements (Click an item for information)</h3>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items..">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Name</th>
+    <th style="width:20%;">Base Cost</th>
+    <th style="width:20%;">How to get (or Recipe)</th>
+  </tr>
+    <tr>
     <td><strong>Oxide</strong></td>
     <td><font style="font-size:14px; color:#ffff00; font-weight:bold;">Yellow</font> on scanner</td>
     <td></td>
@@ -192,12 +291,61 @@ img {
     <td>137.5</td>
     <td>Rocks<br>Asteroids</td>
   </tr>
+  </tr>
+    <td>Iridium<font style="display:none;">Neutral</font></td>
+    <td>96.3</td>
+    <td>Rocks<br>Asteroids</td>
+  </tr>
+  </tr>
+    <td>Copper<font style="display:none;">Neutral</font></td>
+    <td>110</td>
+    <td>Floating Rocks<br>Asteroids</td>
+  </tr>
+  </tr>
+    <td>Gold<font style="display:none;">Neutral</font></td>
+    <td>220</td>
+    <td>Crystals<br>Rocks<br>Asteroids</td>
+  </tr>
+  </tr>
+    <td>Aluminium<font style="display:none;">Neutral</font></td>
+    <td>165</td>
+    <td>Crystals<br>Rocks<br>Asteroids</td>
+  </tr>
+  </tr>
+    <td>Emeril<font style="display:none;">Neutral</font></td>
+    <td>275</td>
+    <td>Crystals<br>Rocks<br>Asteroids</td>
+  </tr>
+<tr>
+    <td><strong>Precious</strong></td>
+    <td><font style="font-size:14px; color:#00ff00; font-weight:bold;">Green</font> on scanner</td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>Omegon<font style="display:none;">Precious</font></td>
+    <td>309.4</td>
+    <td>Feeding Animals<br>dismanting crashed ships<br>big trading stations<br>red pillars on planets</td>
+  </tr>
+  </tr>
+    <td>Radnox<font style="display:none;">Precious</font></td>
+    <td>302.5</td>
+    <td>Small Rocks - Can be floating</td>
+  </tr>
+  </tr>
+    <td>Murrine<font style="display:none;">Precious</font></td>
+    <td>302.5</td>
+    <td>Plants<br>Small Spherical Rock</td>
+  </tr>
+  </tr>
+    <td>Calium<font style="display:none;">Precious</font></td>
+    <td>288.8</td>
+    <td>Orb Rocks<br>Plants<br>pulsing gooshy sacs on toxic/radioactive planets</td>
+  </tr>
 </table>
-
 </div>
 
-<div id="Refinery" class="tabcontent">
-  <h3>Refinery (Click an item to learn to craft)</h3>
+<div id="Items" class="tabcontent">
+  <h3>Items (Click an item to learn to craft and Information)</h3>
   
 
 
@@ -249,5 +397,6 @@ function myFunction() {
   }
 }
 </script>
+
 
 <!-- http://orcz.com/No_Man's_Sky:_Items_List --!>
