@@ -148,6 +148,50 @@ img {
     <td><font style="font-size:14px; color:#0000ff; font-weight:bold;">Blue</font> on scanner</td>
     <td></td>
   </tr>
+  <tr>
+    <td>Heridium<font style="display:none;">Silicate</font></td>
+    <td>27.5</td>
+    <td>Rocks</td>
+  </tr>
+  <tr>
+    <td>Platinum<font style="display:none;">Silicate</font></td>
+    <td>55</td>
+    <td>Blue Plants<br>Refineries</td>
+  </tr>
+  <tr>
+    <td>Chrysonite<font style="display:none;">Silicate</font></td>
+    <td>82.5</td>
+    <td>Crystals</td>
+  </tr>
+ <tr>
+    <td><strong>Isotope</strong></td>
+    <td><font style="font-size:14px; color:#ff0000; font-weight:bold;">Red</font> on scanner</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Carbon<font style="display:none;">Isotope</font></td>
+    <td>6.9</td>
+    <td>All Flora</td>
+  </tr>
+  <tr>
+    <td>Thamium9<font style="display:none;">Isotope</font></td>
+    <td>20.6</td>
+    <td>Flowers<br>Asteroids</td>
+  </tr>
+ <tr>
+    <td>Plutonium<font style="display:none;">Isotope</font></td>
+    <td>41.3</td>
+    <td>Flowers</td>
+  </tr>
+<tr>
+    <td><strong>Neutral</strong></td>
+    <td><font style="font-size:14px; color:#d3d3d3; font-weight:bold; background-color:black;">Grey</font> on scanner</td>
+    <td></td>
+  </tr>
+    <td>Nickel<font style="display:none;">Neutral</font></td>
+    <td>137.5</td>
+    <td>Rocks<br>Asteroids</td>
+  </tr>
 </table>
 
 </div>
@@ -205,3 +249,5 @@ function myFunction() {
   }
 }
 </script>
+
+<!-- http://orcz.com/No_Man's_Sky:_Items_List --!>
