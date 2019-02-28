@@ -103,7 +103,7 @@ img {
 </head>
 <body>
 
-<h2>Crafting And Items</h2>
+<h2>Crafting And Items (WIP)</h2>
 
 <!-- Tab links -->
 <div class="tab">
@@ -170,11 +170,6 @@ img {
     <td></td>
     <td></td>
   </tr>
-  <tr>
-    <td><strong>Technology Components</strong></td>
-    <td></td>
-    <td></td>
-  </tr>
   </tr>
     <td>Carite Sheet<font style="display:none;">Technology Components</font></td>
     <td>825</td>
@@ -209,6 +204,81 @@ img {
     <td>Night Crystals<font style="display:none;">Technology Components</font></td>
     <td>35000</td>
     <td>Market</td>
+  </tr>
+  <tr>
+    <td><strong>Energy Sources</strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>Shielding Shard<font style="display:none;">Energy Sources</font></td>
+    <td>343.8</td>
+    <td>Iron x 25</td>
+  </tr>
+  </tr>
+    <td>Shielding Plate<font style="display:none;">Energy Sources</font></td>
+    <td>687.5</td>
+    <td>Iron x 50</td>
+  </tr>
+  </tr>
+    <td>Shielding Sheet<font style="display:none;">Energy Sources</font></td>
+    <td>1,0311</td>
+    <td>Iron x 75</td>
+  </tr>
+  </tr>
+    <td>Power Gel<font style="display:none;">Energy Sources</font></td>
+    <td>171.9</td>
+    <td>Carbon x 25</td>
+  </tr>
+  </tr>
+    <td>Power Canister<font style="display:none;">Energy Sources</font></td>
+    <td>343.8</td>
+    <td>Carbon x 50</td>
+  </tr>
+  </tr>
+    <td>Power Reservoir<font style="display:none;">Energy Sources</font></td>
+    <td>515,6</td>
+    <td>Carbon x 75</td>
+  </tr>
+  </tr>
+    <td>Unstable Plasma<font style="display:none;">Energy Sources</font></td>
+    <td>27500</td>
+    <td>Thamium9 x 400 + Plutonium x 200</td>
+  </tr>
+  </tr>
+    <td>Warp Cell<font style="display:none;">Energy Sources</font></td>
+    <td>46750</td>
+    <td>Thamium9 x 100 + Antimatter x 1</td>
+  </tr>
+  <tr>
+    <td><strong>Hacking</strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>Bypass Chip<font style="display:none;">Hacking</font></td>
+    <td>3575.0</td>
+    <td>Iron x 10 + Plutonium x 10</td>
+  </tr>
+  <tr>
+    <td><strong>Access Cards</strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>AtlasPass v1<font style="display:none;">Access Cards</font></td>
+    <td>825.0</td>
+    <td>Iron x 25 + Heridium x 10 <br> See: Space Anomaly</td>
+  </tr>
+  </tr>
+    <td>AtlasPass v2<font style="display:none;">Access Cards</font></td>
+    <td>1856.3</td>
+    <td>Zinc x 25 + Platinum x 10 <br> See: Space Anomaly</td>
+  </tr>
+  </tr>
+    <td>AtlasPass v3<font style="display:none;">Access Cards</font></td>
+    <td>2612.5</td>
+    <td>Titanium x 25 + Chrysonite x 10 <br> See: Space Anomaly</td>
   </tr>
 </table>
 
