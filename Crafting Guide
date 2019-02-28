@@ -28,16 +28,75 @@ img {
   height: auto;
 }
 
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
-div.container {
-  text-align: center;
-  padding: 10px 20px;
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
 }
 
 </style>
@@ -46,28 +105,103 @@ div.container {
 
 <h2>Crafting Tree</h2>
 
-<div class="polaroid">
-  <img src="https://i.imgur.com/3L1NeYF.png" style="width:100%">
-  <div class="container">
-  <p>Agricultural products branch.</p>
-  <p>Crop formulas are obtained through Farmer NPC quests, crafted items formulas are obtained through Science NPC quests.</p>
-  </div>
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Crafting')">Crafting</button>
+  <button class="tablinks" onclick="openTab(event, 'Refinery')">Refinery</button>
 </div>
 
-<div class="polaroid">
-  <img src="https://i.imgur.com/wGC6ohD.png" style="width:100%">
-  <div class="container">
-  <p>Alloys branch.</p>
-  <p>Recipes can be randomly acquired in Manufacturing Plants and Operations Centers.</p>
-  </div>
+<!-- Tab content -->
+<div id="Crafting" class="tabcontent">
+  <h3>Crafting (Click an item to learn how to craft)</h3>
+  
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items..">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Name</th>
+    <th style="width:20%;">Base Cost</th>
+    <th style="width:20%;">How to get (or Recipe)</th>
+  </tr>
+  <tr>
+    <td><strong>Oxide</strong></td>
+    <td><font style="font-size:14px; color:#ffff00; font-weight:bold;">Yellow</font> on scanner</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Iron <font style="display:none;">oxide</font></td>
+    <td>13.8</td>
+    <td>Rocks<br>Asteroids</td>
+  </tr>
+  <tr>
+    <td>Zinc<font style="display:none;">oxide</font></td>
+    <td>41.3</td>
+    <td>Yellow Plants<br>Sentinels</td>
+  </tr>
+  <tr>
+    <td>Titanium<font style="display:none;">oxide</font></td>
+    <td>61.9</td>
+    <td>Crystals<br>Refineries</td>
+  </tr>
+  <tr>
+    <td><strong>Silicate</strong></td>
+    <td><font style="font-size:14px; color:#0000ff; font-weight:bold;">Blue</font> on scanner</td>
+    <td></td>
+  </tr>
+</table>
+
 </div>
 
-<div class="polaroid">
-  <img src="https://i.imgur.com/If51Mnj.png" style="width:100%">
-  <div class="container">
-  <p>Gas products branch.</p>
-  <p>Raw gases obtained by building atmosphere harvesters on adequate planets (requires materials from the Agricultural branch), buying them from traders (not trade terminals) or as secondary resources. Enhanced Gas recipes can be obtained in Manufacturing Plants.  Manufactured Gas Product recipes can be obtained in Operations Centers. Underligned items can be acquired as mission rewards.</p>
-  </div>
+<div id="Refinery" class="tabcontent">
+  <h3>Refinery (Click an item to learn to craft)</h3>
+  
+
+
 </div>
 
 </body>
+
+<script>
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+function myFunction() {
+  // Declare variables 
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+</script>
