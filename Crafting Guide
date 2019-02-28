@@ -165,8 +165,13 @@ img {
     <td>39105</td>
     <td>Emeril x 40 + Alumium x 40 + Herox x 1</td>
   </tr>
-<tr>
-    <td>Carite Sheet<strong>Technology Components</strong></td>
+  <tr>
+    <td><strong>Technology Components</strong></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>Carite Sheet<font style="display:none;">Technology Components</font></td>
     <td>825</td>
     <td>Iron x 50</td>
   </tr>
