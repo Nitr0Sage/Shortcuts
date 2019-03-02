@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Wiki</title>
+<style>
+
+body {
+  font-family:0;
+  background:#e4e4e4;
+  color:#000;
+  text-align:center;
+  margin:30px;
+  }
+  
+h1 {
+  font-size:27px;
+  margin:0;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+ .heading {
+    border-bottom: 1px solid #b1dbc8;
+    font-family: "Geosanslight-NMS",Raleway,sans-serif;
+    letter-spacing: 1px;
+    <!--color: #ffffff;--!>
+    font-variant: small-caps;
+    font-size: 132%;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+
+.fpimagelinks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.hidden {
+   display: none;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Wiki</h2>
+
+
+<a href="https://nomanssky.gamepedia.com/No_Man%27s_Sky_Wiki">This is currently A work in progress. Please click here for a wiki</a>
+
+
+<div class="row hidden"> 
+  <div class="column">
+    <div class="heading">Universe</div>
+<div class="fpimagelinks">
+   <div class="fpimagelink">
+      <div><a href="/Galaxy" title="Galaxy"><img alt="Iconspirale02.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/ZUq0lYF.gif"></a></div>
+      <div><a href="/Galaxy" title="Galaxy">Galaxies</a></div>
+   </div>
+   <div class="fpimagelink">
+      <div><a href="/Star_system" title="Star system"><img alt="Iconstarsystem02.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/MnwyRxm.gif"></a></div>
+      <div><a href="/Star_system" title="Star system">Star system</a></div>
+   </div>
+   <div class="fpimagelink">
+      <div><a href="/Planet" title="Planet"><img alt="Iconplanets02.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/z2kAUea.gif"></a></div>
+      <div><a href="/Planet" title="Planet">Planets</a></div>
+   </div>
+   <div class="fpimagelink">
+      <div><a href="/Space_station" title="Space station"><img alt="Iconspacestation02.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/6Dltita.gif"></a></div>
+      <div><a href="/Space_station" title="Space station">Space stations</a></div>
+   </div>
+   <div class="fpimagelink">
+      <div><a href="/Portal" title="Portal"><img alt="Iconportal01.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/pUDVlUM.gif"></a></div>
+      <div><a href="/Portal" title="Portal">Portals</a></div>
+   </div>
+   <div class="fpimagelink">
+      <div><a href="/Species" title="Species"><img alt="Iconspecies02.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/ZWagsNO.gif"></a></div>
+      <div><a href="/Species" title="Species">Species</a></div>
+   </div>
+   <div class="fpimagelink">
+      <div><a href="/Sentinel" title="Sentinel"><img alt="Iconsentinel02.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/B6M9wRw.gif"></a></div>
+      <div><a href="/Sentinel" title="Sentinel">Sentinels</a></div>
+   </div>
+   <div class="fpimagelink">
+      <div><a href="/Resource" title="Resource"><img alt="Iconresource03.gif" width="100" height="100" x-enc="src" src="https://i.imgur.com/AopzlZK.gif"></a></div>
+      <div><a href="/Resource" title="Resource">Resources</a></div>
+   </div>
+</div>
+</div>
+</div>
+
+</body>
